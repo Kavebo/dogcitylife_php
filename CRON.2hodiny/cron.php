@@ -1,0 +1,1 @@
+<?php file_get_contents('https://dogcitylife.cz/cron.php'); ?>

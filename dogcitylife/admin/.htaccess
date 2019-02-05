@@ -1,0 +1,10 @@
+#ErrorDocument 404 http://modernianglictina/aplikace/nenalezeno
+
+RewriteEngine On
+
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^.*$ https://%{SERVER_NAME}/aplikace [R,L]
+
+RewriteCond %{REQUEST_FILENAME}.php !-f
+RewriteRule ^([^\.]+)/$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

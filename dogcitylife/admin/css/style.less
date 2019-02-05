@@ -1,0 +1,243 @@
+@import "mixins.less";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@i : "../img/";
+
+body{
+	background-color: #f4f4f4;
+	font-family: 'Open Sans';
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.clear{
+	clear: both;
+}
+
+.login_form{
+	width: 320px;
+	margin: auto;
+	background-color: #fff;
+	padding: 30px;
+	text-align: center;
+}
+
+.container{
+	width: 1170px;
+	margin: auto;
+}
+
+.menu{
+	border-bottom: 1px solid #000000;
+	margin-top: 20px;
+}
+
+.menu ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	padding: 6px 6px;
+	margin: 0 6px;
+}
+
+.menu ul li a.active{
+	border: 1px solid #000;
+	border-bottom: 0;
+	background: #f4f4f4;
+    top: 1px;
+    position: relative;
+}
+
+.type_filter{
+	border-bottom: 1px solid #000000;
+	padding: 12px 0;
+}
+
+.type_filter ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	.fleft;
+}
+
+.type_filter ul li{
+	display: inline-block;
+}
+
+.type_filter ul li a{
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	padding: 6px 6px;
+	margin: 0 6px;
+}
+
+.type_filter ul li a.current{
+	background-color: #c40613;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.type_filter .total{
+	float: right;
+}
+
+.search_filter{
+	padding: 12px 0;
+}
+
+.actions_edit{
+	padding: 15px 0;
+}
+
+.actions_edit h2{
+	font-size: 18px;
+	.fleft;
+}
+
+.actions_edit .actions{
+	.fright;
+}
+
+.input{
+	margin: 15px 0;
+}
+
+.input label:first-child{
+	.fleft;
+	display: block;
+	width: 20%;
+}
+
+.input input{
+	width: 80%;
+	outline: 0;
+	padding: 4px 10px;
+}
+
+.input textarea{
+	width: 80%;
+	min-height: 150px;
+	outline: 0;
+	padding: 4px 10px;
+}
+
+.input .third{
+	width: 20%;
+	.fleft;
+	margin-right: 6%;
+}
+
+.input .third label{
+	display: inline-block;
+	float: none;
+	width: auto;
+}
+
+.input .third textarea{
+	width: 100%;
+}
+
+.input .third input[type="checkbox"]{
+	display: inline-block;
+    width: auto;
+    padding: 0;
+}
+
+.input.check {
+	position: relative;
+}
+
+.input.check input[type="checkbox"]{
+	display: inline-block;
+    width: auto;
+    padding: 0;
+    position: absolute;
+    left: 140px;
+}
+
+.list table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.list table{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.list table td{
+	padding: 8px 12px;
+}
+
+.list table tr:nth-child(even) td{
+	background-color: #fbfbfb;
+}
+
+.list table td.not_active{
+	color: #9a9a9a;
+}
+
+.under_header{
+	margin-bottom: 30px;
+}
+
+.pagination{
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
+}
+
+.pagination li{
+	display: inline-block;
+}
+
+.pagination li a{
+	display: inline-block;
+	color: #636363;
+	font-size: 20px;
+	text-decoration: none;
+	    margin: 0 5px;
+}
+
+.pagination li a.active{
+	text-decoration: underline;
+}
+
+.more_files input{
+	width: auto;
+}
+
+.more_files img{
+	margin: 20px 10px;
+}
+
+.col .multiple{
+	margin-top: 15px;
+}
+
+.form_block{
+	margin-top: 15px;
+}
+
+.message{
+	    background-color: #188c18;
+    color: #fff;
+    padding: 6px;
+    margin-top: 20px;
+	
+}
