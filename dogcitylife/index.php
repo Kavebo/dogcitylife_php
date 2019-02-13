@@ -17,7 +17,7 @@
             <div class="clear"></div>
         </div>
         <h2 class="best"><?php _e('Nejlépe hodnoceno'); ?></h2>
-        <?php $doporucujeme = $db->fetch_all("SELECT zarizeni.ID,zarizeni.name,zarizeni.address, zarizeni.kavarna, zarizeni.restaurace, zarizeni.bar, zarizeni.hotel, zarizeni.hriste, zarizeni.permalink from zarizeni LEFT JOIN reviews ON zarizeni.ID=reviews.zarizeni_ID WHERE active = 1 AND lang LIKE '" . get_current_lang() . "' GROUP BY zarizeni.ID");
+        <?php $doporucujeme = $db->fetch_all("SELECT zarizeni.ID,zarizeni.name,zarizeni.address, zarizeni.kavarna, zarizeni.restaurace, zarizeni.cvicak, zarizeni.hotel, zarizeni.hriste, zarizeni.permalink from zarizeni LEFT JOIN reviews ON zarizeni.ID=reviews.zarizeni_ID WHERE active = 1 AND lang LIKE '" . get_current_lang() . "' GROUP BY zarizeni.ID");
 
             if($doporucujeme){
                 foreach ($doporucujeme as $key => $value) {

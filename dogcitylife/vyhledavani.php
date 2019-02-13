@@ -245,8 +245,8 @@
 			else if(\strpos($typ_string, 'restaurace') !== false){
 				$type_places_string .= __('Restaurace');
 			}
-			else if(\strpos($typ_string, 'bar') !== false){
-				$type_places_string .= __('Bary');
+			else if(\strpos($typ_string, 'cvicak') !== false){
+				$type_places_string .= __('Cvičáky');
 			}
 			else if(\strpos($typ_string, 'hotel') !== false){
 				$type_places_string .= __('Hotely');
@@ -338,16 +338,16 @@
 			    			<select multiple name="typ[]" id="typ_side" style="display: none;">
 								<option value="kavarna" <?php if(isset($_GET['typ']) && in_array("kavarna", $_GET['typ'])) echo 'selected'; ?>>Hledat kavárny</option>
 								<option value="restaurace" <?php if(isset($_GET['typ']) && in_array("restaurace", $_GET['typ'])) echo 'selected'; ?>>Hledat restaurace</option>
-								<option value="bar" <?php if(isset($_GET['typ']) && in_array("bar", $_GET['typ'])) echo 'selected'; ?>>Hledat bary</option>
 								<option value="hotel" <?php if(isset($_GET['typ']) && in_array("hotel", $_GET['typ'])) echo 'selected'; ?>>Hledat hotely</option>
 								<option value="potreby" <?php if(isset($_GET['typ']) && in_array("potreby", $_GET['typ'])) echo 'selected'; ?>>Hledat psí potřeby</option>
+								<option value="cvicak" <?php if(isset($_GET['typ']) && in_array("cvicak", $_GET['typ'])) echo 'selected'; ?>>Hledat cvičáky</option>
 								<option value="hriste" <?php if(isset($_GET['typ']) && in_array("hriste", $_GET['typ'])) echo 'selected'; ?>>Psí hříště</option>
 							</select>
 							<a class="select_box kavarna tooltip <?php if(isset($_GET['typ']) && in_array("kavarna", $_GET['typ'])) echo 'selected'; ?>" data-val="kavarna" href="" title="<?php _e('Hledat kavárny'); ?>"></a>
 							<a class="select_box restaurace tooltip <?php if(isset($_GET['typ']) && in_array("restaurace", $_GET['typ'])) echo 'selected'; ?>" data-val="restaurace" href="" title="<?php _e('Hledat restaurace'); ?>"></a>
-							<a class="select_box bar tooltip <?php if(isset($_GET['typ']) && in_array("bar", $_GET['typ'])) echo 'selected'; ?>" data-val="bar" href="" title="<?php _e('Hledat bary'); ?>"></a>
 							<a class="select_box hotel tooltip <?php if(isset($_GET['typ']) && in_array("hotel", $_GET['typ'])) echo 'selected'; ?>" data-val="hotel" href="" title="<?php _e('Hledat hotely'); ?>"></a>
 							<a class="select_box potreby tooltip <?php if(isset($_GET['typ']) && in_array("potreby", $_GET['typ'])) echo 'selected'; ?>" data-val="potreby" href="" title="<?php _e('Hledat psí potřeby'); ?>"></a>
+							<a class="select_box cvicak tooltip <?php if(isset($_GET['typ']) && in_array("cvicak", $_GET['typ'])) echo 'selected'; ?>" data-val="cvicak" href="" title="<?php _e('Hledat cvičáky'); ?>"></a>
 							<a class="select_box hriste tooltip <?php if(isset($_GET['typ']) && in_array("hriste", $_GET['typ'])) echo 'selected'; ?>" data-val="hriste" href="" title="<?php _e('Hledat psí hřiště'); ?>"></a>
 			    		</div>
 			    	</div>

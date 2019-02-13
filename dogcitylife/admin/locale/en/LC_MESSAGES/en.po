@@ -51,8 +51,8 @@ msgid "Restaurace"
 msgstr "Restaurant"
 
 #: footer.php:11 footer.php:22 admin/functions.php:265
-msgid "Bary"
-msgstr "Bar"
+msgid "Cvičáky"
+msgstr "Agility"
 
 #: footer.php:12 footer.php:23 admin/functions.php:266
 msgid "Hotely"
@@ -64,7 +64,7 @@ msgstr "Sport"
 
 #: footer.php:14 footer.php:25 vyhledavani.php:319 admin/functions.php:268
 msgid "Psí hřiště"
-msgstr "Agility"
+msgstr "Dog playground"
 
 #: footer.php:18
 msgid "Top zařízení"
@@ -201,8 +201,8 @@ msgid "Hledat restaurace"
 msgstr "Looking for a Restaurant"
 
 #: header.php:240 vyhledavani.php:316
-msgid "Hledat bary"
-msgstr "Looking for a Bar"
+msgid "Hledat cvičáky"
+msgstr "Looking for an agility"
 
 #: header.php:241 vyhledavani.php:317
 msgid "Hledat hotely"
@@ -214,7 +214,7 @@ msgstr "Looking for a Sport"
 
 #: header.php:243
 msgid "Hledat psí hřiště"
-msgstr " Looking for an Agility"
+msgstr " Looking for a dog playground"
 
 #: header.php:246
 msgid "Zde prosím napište Vaši adresu"

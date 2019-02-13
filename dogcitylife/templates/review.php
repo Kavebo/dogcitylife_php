@@ -1,5 +1,5 @@
 <div class="review">
-	<?php 
+	<?php
 	$file = explode("/", $_SERVER["PHP_SELF"]);
 	$file = end($file);
 
@@ -8,8 +8,8 @@
 		$typ = "kavarna";
 	}elseif($zarizeni['restaurace'] == 1){
 		$typ = "restaurace";
-	}elseif($zarizeni['bar'] == 1){
-		$typ = "bar";
+	}elseif($zarizeni['cvicak'] == 1){
+		$typ = "cvicak";
 	}elseif($zarizeni['hotel'] == 1){
 		$typ = "hotel";
 	}elseif($zarizeni['sport'] == 1){
@@ -26,7 +26,7 @@
 	<?php endif; ?>
 	<div class="content">
 		<div class="img">
-			<?php 
+			<?php
 				$img = $db->fetch("SELECT * FROM imgs WHERE is_main=1 AND user_ID=" . $review['ID']);
 			?>
 			<?php if($img): ?>

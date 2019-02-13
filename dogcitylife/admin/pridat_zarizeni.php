@@ -1,9 +1,9 @@
-<?php 
+<?php
 require_once "db.php";
 require_once "functions.php";
 is_user_authorized();
 include('SimpleImage.php'); ?>
-<?php 
+<?php
 $id = 0;
 if(isset($_GET['id']) && !empty($_GET['id'])){
 	//test ID
@@ -50,7 +50,7 @@ if(isset($_POST['object_save'])){
 			"doporucujeme" => $doporucujeme,
 			"kavarna" => 0,
 			"restaurace" => 0,
-			"bar" => 0,
+			"cvicak" => 0,
 			"hotel" => 0,
 			"potreby" => 0,
 			"wifi" => 0,
@@ -93,7 +93,7 @@ if(isset($_POST['object_save'])){
 			$db->update("zarizeni", array("ID" => $zarizeni['ID']), array("download" => ""));
 		}
 
-		//LOCATION 
+		//LOCATION
 		if(!empty($_POST['object_address'])){
 			$url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($_POST['object_address']) . '&key=AIzaSyCa9hro3xB3Z5ciY7HDcLWC65HinFyIrWU';
 			$data = @file_get_contents($url);
@@ -126,7 +126,7 @@ if(isset($_POST['object_save'])){
 					$image = new abeautifulsite\SimpleImage($uploadfile);
 					$image->thumbnail($size['width'],$size['height']);
 					$image->save($uploaddir . $size['width'] . "x" . $size['height'] . "-" . basename($file['name']));
-				}					
+				}
 			}
 		}
 
@@ -149,7 +149,7 @@ if(isset($_POST['object_save'])){
 								$image = new abeautifulsite\SimpleImage($uploadfile);
 								$image->thumbnail($size['width'],$size['height']);
 								$image->save($uploaddir . $size['width'] . "x" . $size['height'] . "-" . basename($file['name']));
-							}					
+							}
 						}
 					}
 				}
@@ -163,9 +163,9 @@ if(isset($_POST['object_save'])){
 				}
 				$uploaddir = "uploads/";
 				$uploadfile = $uploaddir . $zarizeni['ID'] . "-" . basename($file['name']);
-				
+
 				if (move_uploaded_file($file['tmp_name'], $uploadfile)) {
-					$file_to_copy3 = $uploadfile;			
+					$file_to_copy3 = $uploadfile;
 				}
 			}
 
@@ -234,13 +234,13 @@ if(isset($_POST['object_save'])){
 
 		foreach ($langs as $key => $value) {
 			$data['lang'] = $key;
-			$zarizeni_id = $db->insert("zarizeni", $data);	
+			$zarizeni_id = $db->insert("zarizeni", $data);
 			if($key == "cs"){
 				$default_id = $zarizeni_id;
 			}
 			$db->update("zarizeni", array("ID" => $zarizeni_id), array("default_ID" => $default_id));
 
-			//LOCATION 
+			//LOCATION
 			if(!empty($_POST['object_address']) && $result->status == 'OK'){
 				$db->update("zarizeni", array("ID" => $zarizeni_id), array("lat" => $lat, "lng" => $lng));
 			}
@@ -262,7 +262,7 @@ if(isset($_POST['object_save'])){
 						$image = new abeautifulsite\SimpleImage($uploadfile);
 						$image->thumbnail($size['width'],$size['height']);
 						$image->save($uploaddir . $size['width'] . "x" . $size['height'] . "-" . basename($file['name']));
-					}					
+					}
 				}
 				/*if($default_id != $zarizeni_id && $file_to_copy){
 					copy($file_to_copy, $uploadfile);
@@ -294,7 +294,7 @@ if(isset($_POST['object_save'])){
 							$image = new abeautifulsite\SimpleImage($uploadfile);
 							$image->thumbnail($size['width'],$size['height']);
 							$image->save($uploaddir . $size['width'] . "x" . $size['height'] . "-" . basename($file['name']));
-						}					
+						}
 					}
 					/*if($default_id != $zarizeni_id && isset($files_to_copy[$c])){
 						copy($files_to_copy[$c], $uploadfile);
@@ -317,9 +317,9 @@ if(isset($_POST['object_save'])){
 				}
 				$uploaddir = "uploads/";
 				$uploadfile = $uploaddir . $zarizeni_id . "-" . basename($file['name']);
-				
+
 				if (move_uploaded_file($file['tmp_name'], $uploadfile)) {
-					$file_to_copy3 = $uploadfile;			
+					$file_to_copy3 = $uploadfile;
 				}
 				/*if($default_id != $zarizeni_id){
 					copy($file_to_copy3, $uploadfile);
@@ -330,7 +330,7 @@ if(isset($_POST['object_save'])){
 
 		//REDIRECT TO EDIT
 		redirect("pridat_zarizeni?id=" . $default_id);
-		
+
 	}
 }
 
@@ -403,8 +403,8 @@ include "header.php";
 		<input type="checkbox" name="object_type[]" value="kavarna" id="kavarna" <?php if(isset($zarizeni['kavarna']) && $zarizeni['kavarna'] == "1") echo "checked"; ?>>
 		<label for="restaurace">Restaurace</label>
 		<input type="checkbox" name="object_type[]" value="restaurace" id="restaurace" <?php if(isset($zarizeni['restaurace']) && $zarizeni['restaurace'] == "1") echo "checked"; ?>>
-		<label for="bar">Bar</label>
-		<input type="checkbox" name="object_type[]" value="bar" id="bar" <?php if(isset($zarizeni['bar']) && $zarizeni['bar'] == "1") echo "checked"; ?>>
+		<label for="cvicak">Cvičák</label>
+		<input type="checkbox" name="object_type[]" value="cvicak" id="cvicak" <?php if(isset($zarizeni['cvicak']) && $zarizeni['cvicak'] == "1") echo "checked"; ?>>
 		<label for="hotel">Hotel</label>
 		<input type="checkbox" name="object_type[]" value="hotel" id="hotel" <?php if(isset($zarizeni['hotel']) && $zarizeni['hotel'] == "1") echo "checked"; ?>>
 		<label for="potreby">Psí potřeby</label>

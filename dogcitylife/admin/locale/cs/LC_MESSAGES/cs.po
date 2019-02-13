@@ -91,7 +91,7 @@ msgstr ""
 
 #: footer.php:11 footer.php:22 admin/functions.php:265
 
-msgid "Bary"
+msgid "Cvičáky"
 msgstr ""
 
 
@@ -345,7 +345,7 @@ msgstr ""
 
 #: header.php:240 vyhledavani.php:316
 
-msgid "Hledat bary"
+msgid "Hledat cvičáky"
 msgstr ""
 
 

@@ -1,12 +1,12 @@
-<?php 
+<?php
 
 $typ = "";
 if($zarizeni['kavarna'] == 1){
 	$typ = "kavarna";
 }elseif($zarizeni['restaurace'] == 1){
 	$typ = "restaurace";
-}elseif($zarizeni['bar'] == 1){
-	$typ = "bar";
+}elseif($zarizeni['cvicak'] == 1){
+	$typ = "cvicak";
 }elseif($zarizeni['hotel'] == 1){
 	$typ = "hotel";
 }elseif($zarizeni['potreby'] == 1){
@@ -42,9 +42,9 @@ if($hodnoceni){
 			<a href="<?php echo get_permalink($zarizeni['permalink']); ?>" class="title"><?php echo $zarizeni['name']; ?></a>
 			<div class="address"><?php echo $zarizeni['address']; ?></div>
 			<?php if($typ != "hriste"): ?>
-				<div class="rating rating<?php echo $average; ?>"><div></div></div>	
+				<div class="rating rating<?php echo $average; ?>"><div></div></div>
 				<div class="rating_text">(<?php echo $all_hodnoceni; ?> <?php _e('hodnocení'); ?>)</div>
 			<?php endif; ?>
 		</div>
-	
+
 </div>

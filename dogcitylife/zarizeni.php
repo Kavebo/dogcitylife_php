@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-	<?php 
+	<?php
 	if(isset($_GET['id']) && !empty($_GET['id'])){
 		$db = new Db();
 		$zarizeni = $db->fetch("SELECT * FROM zarizeni WHERE permalink LIKE '" . $db->db_escape($_GET['id'], $db->conn) . "' AND lang LIKE '" . get_current_lang() . "'");
@@ -10,14 +10,14 @@
 	if(isset($_COOKIE['lat'])){
 		$distance = distance($_COOKIE['lat'], $_COOKIE['lng'], $zarizeni['lat'], $zarizeni['lng']);
 	}
-	
+
 	$typ = "";
 	if($zarizeni['kavarna'] == 1){
 		$typ = "kavarna";
 	}elseif($zarizeni['restaurace'] == 1){
 		$typ = "restaurace";
-	}elseif($zarizeni['bar'] == 1){
-		$typ = "bar";
+	}elseif($zarizeni['cvicak'] == 1){
+		$typ = "cvicak";
 	}elseif($zarizeni['hotel'] == 1){
 		$typ = "hotel";
 	}elseif($zarizeni['potreby'] == 1){
@@ -35,7 +35,7 @@
 				<div class="address"><?php echo $zarizeni['address']; ?><?php if($distance): ?><span class="distance"> | <?php echo $distance . " km"; ?></span><?php endif; ?></div>
 			</div>
 			<div class="rating_cont">
-				<?php 
+				<?php
 					$class = "login_fancybox";
 					$href = "#login";
 
@@ -52,7 +52,7 @@
 				?>
 				<a class="favorite <?php echo $class; ?>" data-id="<?php echo $zarizeni['ID']; ?>" href="<?php echo $href; ?>"></a>
 				<div class="clear"></div>
-				<?php 
+				<?php
 				$hodnoceni = $db->fetch("SELECT avg(obsluha),avg(dog_friendly),avg(jidlo),avg(prostredi) FROM reviews WHERE zarizeni_ID=" . $zarizeni['ID']);
 				$all_hodnoceni = $db->fetch("SELECT count(ID) FROM reviews WHERE zarizeni_ID=" . $zarizeni['ID']);
 				if($all_hodnoceni){
@@ -60,7 +60,7 @@
 				}else{
 					$all_hodnoceni = 0;
 				}
-				
+
 				$average = 0;
 				if($hodnoceni){
 					foreach ($hodnoceni as $value) {
@@ -69,7 +69,7 @@
 
 					$average = round($average/count($hodnoceni));
 				}
-				
+
 				$hodnoceni_text = "";
 
 				switch($average){
@@ -184,38 +184,38 @@
 				<div class="content popis">
 					<?php echo $zarizeni['popis']; ?>
 				</div>
-				<div class="clear mbottom"></div>				
+				<div class="clear mbottom"></div>
 			</div>
 			<?php if($zarizeni['doba_show']): ?>
-			<div class="shorter provozni">			
+			<div class="shorter provozni">
 					<div class="title"><?php _e('Provozní doba'); ?></div>
 					<div class="content">
 						<?php echo $zarizeni['provozni_doba']; ?>
 					</div>
-				
+
 				<div class="clear mbottom"></div>
 			</div>
 			<div class="clear"></div>
 			<?php endif; ?>
-			
+
 			<?php if($zarizeni['download']): ?>
 			<div class="wider">
-				
+
 					<div class="title"><?php _e('Menu podniku'); ?></div>
 					<div class="content">
 						<a class="download" href="<?php echo get_front_url() . "admin/uploads/" . $zarizeni['download']; ?>"><?php _e('Náhled menu zde'); ?></a>
 					</div>
-				
+
 			</div>
 			<?php endif; ?>
 			<?php if($zarizeni['contact_show']): ?>
 				<div class="shorter">
-					
+
 						<div class="title"><?php _e('Kontakt'); ?></div>
 						<div class="content">
 							<?php echo $zarizeni['contact']; ?>
 						</div>
-					
+
 				</div>
 			<?php endif; ?>
 			<div class="clear"></div>
@@ -248,7 +248,7 @@
 				<div class="clear"></div>
 			</div>
 			<div class="list_review" id="list_review">
-				<?php  
+				<?php
 
 				if(isset($_GET['page']) && !empty($_GET['page'])){
 					$paged = $_GET['page'];
@@ -284,7 +284,7 @@
 				}
 
 				if($total_pages > 1){
-					for ($i=1; $i < $total_pages+1; $i++) { 
+					for ($i=1; $i < $total_pages+1; $i++) {
 
 						$link = "?page=" . $i;
 

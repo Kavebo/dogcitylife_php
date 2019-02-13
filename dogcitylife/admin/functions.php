@@ -594,11 +594,11 @@ function get_front_menu_items(){
 
 		array("title" => __("Restaurace"), "link" => get_front_url_lang() . "vyhledavani?typ[]=restaurace", "urls" => array("")),
 
-		array("title" => __("Bary"), "link" => get_front_url_lang() . "vyhledavani?typ[]=bar", "urls" => array("")),
-
 		array("title" => __("Hotely"), "link" => get_front_url_lang() . "vyhledavani?typ[]=hotel", "urls" => array("")),
 
 		array("title" => __("Psí potřeby"), "link" => get_front_url_lang() . "vyhledavani?typ[]=potreby", "urls" => array("")),
+
+		array("title" => __("Cvičáky"), "link" => get_front_url_lang() . "vyhledavani?typ[]=cvicak", "urls" => array("")),
 
 		array("title" => __("Psí hřiště"), "link" => get_front_url_lang() . "vyhledavani?typ[]=hriste", "urls" => array("")),
 

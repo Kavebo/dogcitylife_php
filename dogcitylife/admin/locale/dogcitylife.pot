@@ -70,7 +70,7 @@ msgid "Restaurace"
 msgstr ""
 
 #: footer.php:11
-msgid "Bary"
+msgid "Cvičáky"
 msgstr ""
 
 #: footer.php:12
@@ -94,7 +94,7 @@ msgid "Nejlepší restaurace"
 msgstr ""
 
 #: footer.php:21
-msgid "Nejlepší bary"
+msgid "Nejlepší cvičáky"
 msgstr ""
 
 #: footer.php:22
@@ -222,7 +222,7 @@ msgid "Hledat restaurace"
 msgstr ""
 
 #: header.php:184 vyhledavani.php:314
-msgid "Hledat bary"
+msgid "Hledat cvičáky"
 msgstr ""
 
 #: header.php:185 vyhledavani.php:315

@@ -166,8 +166,8 @@ body {
 .search_header .select_box.restaurace {
   background: url(../img/restaurace_normal.svg) 50% 50% no-repeat;
 }
-.search_header .select_box.bar {
-  background: url(../img/bar_normal.svg) 50% 50% no-repeat;
+.search_header .select_box.cvicak {
+  background: url(../img/cvicak_normal.svg) 50% 50% no-repeat;
 }
 .search_header .select_box.hotel {
   background: url(../img/hotel_normal.svg) 50% 50% no-repeat;
@@ -336,8 +336,8 @@ h2.doporucujeme {
   background: url(../img/restaurace.svg) 95% 8px no-repeat #fff;
   background-size: 48px;
 }
-.zarizeni_box.bar .inner {
-  background: url(../img/bar.svg) 95% 8px no-repeat #fff;
+.zarizeni_box.cvicak .inner {
+  background: url(../img/cvicak.svg) 95% 8px no-repeat #fff;
   background-size: 48px;
 }
 .zarizeni_box.hotel .inner {
@@ -1622,11 +1622,11 @@ label.error.valid {
 .sidebar .buttons .inner_buttons a.restaurace.selected {
   background: url(../img/filtr_restaurace_aktiv.svg) no-repeat;
 }
-.sidebar .buttons .inner_buttons a.bar {
-  background: url(../img/bar.svg) no-repeat;
+.sidebar .buttons .inner_buttons a.cvicak {
+  background: url(../img/cvicak.svg) no-repeat;
 }
-.sidebar .buttons .inner_buttons a.bar.selected {
-  background: url(../img/filtr_bar_aktiv.svg) no-repeat;
+.sidebar .buttons .inner_buttons a.cvicak.selected {
+  background: url(../img/filtr_cvicak_aktiv.svg) no-repeat;
 }
 .sidebar .buttons .inner_buttons a.hotel {
   background: url(../img/hotel.svg) no-repeat;
@@ -2931,8 +2931,8 @@ html[xmlns] .flexslider .slides {
   .search_header .select_box.restaurace {
     background: url(../img/restaurace.svg) 50% 50% no-repeat;
   }
-  .search_header .select_box.bar {
-    background: url(../img/bar.svg) 50% 50% no-repeat;
+  .search_header .select_box.cvicak {
+    background: url(../img/cvicak.svg) 50% 50% no-repeat;
   }
   .search_header .select_box.hotel {
     background: url(../img/hotel.svg) 50% 50% no-repeat;
@@ -2952,8 +2952,8 @@ html[xmlns] .flexslider .slides {
   .search_header .select_box.restaurace.selected {
     background: url(../img/restaurace_normal.svg) 50% 50% no-repeat;
   }
-  .search_header .select_box.bar.selected {
-    background: url(../img/bar_normal.svg) 50% 50% no-repeat;
+  .search_header .select_box.cvicak.selected {
+    background: url(../img/cvicak_normal.svg) 50% 50% no-repeat;
   }
   .search_header .select_box.hotel.selected {
     background: url(../img/hotel_normal.svg) 50% 50% no-repeat;

@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-<?php 
+<?php
 $db = new Db();
 $paged = 1;
 if(isset($_GET['paged']) && !empty($_GET['paged'])){
@@ -31,8 +31,8 @@ $all = $db->get_zarizeni_filter_all($search, $typ, $address, $date);
 
 ?>
 <form method="GET" action="" id="filter_form">
-	<div class="type_filter">		
-			<?php 
+	<div class="type_filter">
+			<?php
 			$current = "0";
 			if(isset($_GET['typ_zarizeni']) && !empty($_GET['typ_zarizeni'])){
 				$current = $_GET['typ_zarizeni'];
@@ -43,22 +43,22 @@ $all = $db->get_zarizeni_filter_all($search, $typ, $address, $date);
 				<option <?php if("0" == $current) echo "current"; ?> value="0">Vše</option>
 				<option <?php if("kavarna" == $current) echo "current"; ?> value="kavarna">Kavárny</option>
 				<option <?php if("restaurace" == $current) echo "current"; ?> value="restaurace">Restaurace</option>
-				<option <?php if("bar" == $current) echo "current"; ?> value="bar">Bary</option>
 				<option <?php if("hotel" == $current) echo "current"; ?> value="hotel">Hotely</option>
 				<option <?php if("potreby" == $current) echo "current"; ?> value="potreby">Psí potřeby</option>
+				<option <?php if("cvicak" == $current) echo "current"; ?> value="cvicak">Cvičáky</option>
 				<option <?php if("hriste" == $current) echo "current"; ?> value="hriste">Psí hřiště</option>
 			</select>
 			<ul>
 				<li><a class="<?php if("0" == $current) echo "current"; ?>" href="0">Vše</a></li>
 				<li><a class="<?php if("kavarna" == $current) echo "current"; ?>" href="kavarna">Kavárny</a></li>
 				<li><a class="<?php if("restaurace" == $current) echo "current"; ?>" href="restaurace">Restaurace</a></li>
-				<li><a class="<?php if("bar" == $current) echo "current"; ?>" href="bar">Bary</a></li>
 				<li><a class="<?php if("hotel" == $current) echo "current"; ?>" href="hotel">Hotely</a></li>
 				<li><a class="<?php if("potreby" == $current) echo "current"; ?>" href="potreby">Psí potřeby</a></li>
+				<li><a class="<?php if("cvicak" == $current) echo "current"; ?>" href="cvicak">Cvičáky</a></li>
 				<li><a class="<?php if("hriste" == $current) echo "current"; ?>" href="hriste">Psí hřiště</a></li>
 			</ul>
 			<div class="total">Celkem <?php echo $all; ?> zařízení</div>
-			<div class="clear"></div>		
+			<div class="clear"></div>
 	</div>
 	<div class="search_filter">
 		<input type="text" name="search_name" value="<?php if(isset($_GET['search_name']) && !empty($_GET['search_name'])) echo $_GET['search_name']; ?>" placeholder="Hledat název">

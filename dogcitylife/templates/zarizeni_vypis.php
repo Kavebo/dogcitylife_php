@@ -1,11 +1,11 @@
-<?php 
+<?php
 $typ_zarizeni = "";
 if($zarizeni['kavarna'] == 1){
 	$typ_zarizeni = "kavarna";
 }elseif($zarizeni['restaurace'] == 1){
 	$typ_zarizeni = "restaurace";
-}elseif($zarizeni['bar'] == 1){
-	$typ_zarizeni = "bar";
+}elseif($zarizeni['cvicak'] == 1){
+	$typ_zarizeni = "cvicak";
 }elseif($zarizeni['hotel'] == 1){
 	$typ_zarizeni = "hotel";
 }elseif($zarizeni['potreby'] == 1){
@@ -39,7 +39,7 @@ switch($zarizeni['average']){
 		<a class="img" href="<?php echo get_permalink($zarizeni['permalink']); ?>"><img src="<?php echo get_img_src($img['ID'], "front_vypis"); ?>"></a>
 	<?php endif; ?>
 	<div class="inner">
-		<?php 
+		<?php
 			$class = "login_fancybox";
 			$href = "#login";
 
