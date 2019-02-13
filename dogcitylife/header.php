@@ -273,16 +273,16 @@ if($lat && $lng){
 						<select multiple name="typ[]" id="typ" style="display: none;">
 							<option value="kavarna" <?php if(isset($_GET['typ']) && in_array("kavarna", $_GET['typ'])) echo 'selected'; ?>>Hledat kavárny</option>
 							<option value="restaurace" <?php if(isset($_GET['typ']) && in_array("restaurace", $_GET['typ'])) echo 'selected'; ?>>Hledat restaurace</option>
-							<option value="bar" <?php if(isset($_GET['typ']) && in_array("bar", $_GET['typ'])) echo 'selected'; ?>>Hledat bary</option>
 							<option value="hotel" <?php if(isset($_GET['typ']) && in_array("hotel", $_GET['typ'])) echo 'selected'; ?>>Hledat hotely</option>
 							<option value="potreby" <?php if(isset($_GET['typ']) && in_array("potreby", $_GET['typ'])) echo 'selected'; ?>>Hledat potreby</option>
+							<option value="bar" <?php if(isset($_GET['typ']) && in_array("bar", $_GET['typ'])) echo 'selected'; ?>>Hledat bary</option>
 							<option value="hriste" <?php if(isset($_GET['typ']) && in_array("hriste", $_GET['typ'])) echo 'selected'; ?>>Hledat psí hřiště</option>
 						</select>
 						<a class="select_box kavarna tooltip <?php if(isset($_GET['typ']) && in_array("kavarna", $_GET['typ'])) echo 'selected'; ?>" data-val="kavarna" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=kavarna"; ?>" title="<?php _e('Hledat kavárny'); ?>"></a>
 						<a class="select_box restaurace tooltip <?php if(isset($_GET['typ']) && in_array("restaurace", $_GET['typ'])) echo 'selected'; ?>" data-val="restaurace" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=restaurace"; ?>" title="<?php _e('Hledat restaurace'); ?>"></a>
-						<a class="select_box bar tooltip <?php if(isset($_GET['typ']) && in_array("bar", $_GET['typ'])) echo 'selected'; ?>" data-val="bar" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=bar"; ?>" title="<?php _e('Hledat bary'); ?>"></a>
 						<a class="select_box hotel tooltip <?php if(isset($_GET['typ']) && in_array("hotel", $_GET['typ'])) echo 'selected'; ?>" data-val="hotel" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=hotel"; ?>" title="<?php _e('Hledat hotely'); ?>"></a>
 						<a class="select_box potreby tooltip <?php if(isset($_GET['typ']) && in_array("potreby", $_GET['typ'])) echo 'selected'; ?>" data-val="potreby" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=potreby"; ?>" title="<?php _e('Hledat psí potřeby'); ?>"></a>
+						<a class="select_box bar tooltip <?php if(isset($_GET['typ']) && in_array("bar", $_GET['typ'])) echo 'selected'; ?>" data-val="bar" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=bar"; ?>" title="<?php _e('Hledat bary'); ?>"></a>
 						<a class="select_box hriste tooltip <?php if(isset($_GET['typ']) && in_array("hriste", $_GET['typ'])) echo 'selected'; ?>" data-val="hriste" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=hriste"; ?>" title="<?php _e('Hledat psí hřiště'); ?>"></a>
 					</div>
 					<div class="search_bar">

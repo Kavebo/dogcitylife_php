@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-14 13:53:59+0000\n"
+"PO-Revision-Date: 2019-01-29 11:35:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3877,7 +3877,7 @@ msgstr "<strong>Rychlý příspěvek</strong> &mdash; umožní vám vytvořit no
 
 #: wp-admin/index.php:68
 msgid "<strong>Activity</strong> &mdash; Shows the upcoming scheduled posts, recently published posts, and the most recent comments on your posts and allows you to moderate them."
-msgstr "<strong>Aktivity</strong> &mdash; Zobrazuje nadcházející naplánované příspěvky, nedávno publikované příspěvky, nedávné komentáře a umožňuje jejich moderování."
+msgstr "<strong>Aktivity</strong> &mdash; Zobrazí nadcházející naplánované příspěvky, nedávno publikované příspěvky, nedávné komentáře a umožňuje jejich moderování."
 
 #: wp-admin/index.php:67
 msgid "<strong>At A Glance</strong> &mdash; Displays a summary of the content on your site and identifies which theme and version of WordPress you are using."
