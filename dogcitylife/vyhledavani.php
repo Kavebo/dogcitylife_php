@@ -246,7 +246,7 @@
 				$type_places_string .= __('Restaurace');
 			}
 			else if(\strpos($typ_string, 'cvicak') !== false){
-				$type_places_string .= __('Cvičáky');
+				$type_places_string = __('Cvičáky');
 			}
 			else if(\strpos($typ_string, 'hotel') !== false){
 				$type_places_string .= __('Hotely');
