@@ -52,7 +52,7 @@ msgstr "Restaurant"
 
 #: footer.php:11 footer.php:22 admin/functions.php:265
 msgid "Cvičáky"
-msgstr "Agility"
+msgstr "Dog trainig"
 
 #: footer.php:12 footer.php:23 admin/functions.php:266
 msgid "Hotely"
@@ -202,7 +202,7 @@ msgstr "Looking for a Restaurant"
 
 #: header.php:240 vyhledavani.php:316
 msgid "Hledat cvičáky"
-msgstr "Looking for an agility"
+msgstr "Looking for a dog trainig"
 
 #: header.php:241 vyhledavani.php:317
 msgid "Hledat hotely"

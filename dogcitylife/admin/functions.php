@@ -790,8 +790,7 @@ function __($s){
 
 	if($LANG_FILE){
 
-		// $result = $LANG_FILE[2][array_search($s, $LANG_FILE[1])];
-		$result = false;
+		$result = $LANG_FILE[2][array_search($s, $LANG_FILE[1])];
 
 		if(!$result){
 
