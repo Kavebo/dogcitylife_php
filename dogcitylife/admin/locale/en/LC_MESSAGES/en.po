@@ -42,27 +42,27 @@ msgstr "Send"
 msgid "Zařízení"
 msgstr "Places"
 
-#: footer.php:9 footer.php:20 admin/functions.php:263
+#: footer.php:9 footer.php:20
 msgid "Kavárny"
 msgstr "Cafe"
 
-#: footer.php:10 footer.php:21 admin/functions.php:264
+#: footer.php:10 footer.php:21
 msgid "Restaurace"
 msgstr "Restaurant"
 
-#: footer.php:11 footer.php:22 admin/functions.php:265
-msgid "Cvičáky"
-msgstr "Dog trainig"
-
-#: footer.php:12 footer.php:23 admin/functions.php:266
+#: footer.php:11 footer.php:22
 msgid "Hotely"
 msgstr "Hotel"
 
-#: footer.php:13 footer.php:24 admin/functions.php:267
+#: footer.php:12 footer.php:23
 msgid "Sport"
 msgstr "Sport"
 
-#: footer.php:14 footer.php:25 vyhledavani.php:319 admin/functions.php:268
+#: footer.php:13 footer.php:24
+msgid "Cvičáky"
+msgstr "Dog trainig"
+
+#: footer.php:14 footer.php:25
 msgid "Psí hřiště"
 msgstr "Dog playground"
 
@@ -192,27 +192,27 @@ msgstr "Settings"
 msgid "Odhlásit"
 msgstr "Log out"
 
-#: header.php:238 vyhledavani.php:314
+#: header.php:238 vyhledavani.php:346
 msgid "Hledat kavárny"
 msgstr "Looking for a Cafe"
 
-#: header.php:239 vyhledavani.php:315
+#: header.php:239 vyhledavani.php:347
 msgid "Hledat restaurace"
 msgstr "Looking for a Restaurant"
 
-#: header.php:240 vyhledavani.php:316
+#: header.php:240 vyhledavani.php:350
 msgid "Hledat cvičáky"
 msgstr "Looking for a dog trainig"
 
-#: header.php:241 vyhledavani.php:317
+#: header.php:241 vyhledavani.php:348
 msgid "Hledat hotely"
 msgstr "Looking for a Hotel"
 
-#: header.php:242 vyhledavani.php:318
+#: header.php:242 vyhledavani.php:349
 msgid "Hledat sport"
 msgstr "Looking for a Sport"
 
-#: header.php:243
+#: header.php:243 vyhledavani.php:350
 msgid "Hledat psí hřiště"
 msgstr " Looking for a dog playground"
 

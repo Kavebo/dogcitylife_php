@@ -70,15 +70,15 @@ msgid "Restaurace"
 msgstr ""
 
 #: footer.php:11
-msgid "Cvičáky"
-msgstr ""
-
-#: footer.php:12
 msgid "Hotely"
 msgstr ""
 
-#: footer.php:13
+#: footer.php:12
 msgid "Sport"
+msgstr ""
+
+#: footer.php:13
+msgid "Cvičáky"
 msgstr ""
 
 #: footer.php:17
@@ -94,15 +94,15 @@ msgid "Nejlepší restaurace"
 msgstr ""
 
 #: footer.php:21
-msgid "Nejlepší cvičáky"
-msgstr ""
-
-#: footer.php:22
 msgid "Nejlepší hotely"
 msgstr ""
 
-#: footer.php:23
+#: footer.php:22
 msgid "Nejlepší sport"
+msgstr ""
+
+#: footer.php:23
+msgid "Nejlepší cvičáky"
 msgstr ""
 
 #: footer.php:27

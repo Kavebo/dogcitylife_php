@@ -75,42 +75,42 @@ msgstr ""
 
 
 
-#: footer.php:9 footer.php:20 admin/functions.php:263
+#: footer.php:9 footer.php:20
 
 msgid "Kavárny"
 msgstr ""
 
 
 
-#: footer.php:10 footer.php:21 admin/functions.php:264
+#: footer.php:10 footer.php:21
 
 msgid "Restaurace"
 msgstr ""
 
 
 
-#: footer.php:11 footer.php:22 admin/functions.php:265
-
-msgid "Cvičáky"
-msgstr ""
-
-
-
-#: footer.php:12 footer.php:23 admin/functions.php:266
+#: footer.php:11 footer.php:22
 
 msgid "Hotely"
 msgstr ""
 
 
 
-#: footer.php:13 footer.php:24 admin/functions.php:267
+#: footer.php:12 footer.php:23
 
 msgid "Sport"
 msgstr ""
 
 
 
-#: footer.php:14 footer.php:25 vyhledavani.php:319 admin/functions.php:268
+#: footer.php:13 footer.php:24
+
+msgid "Cvičáky"
+msgstr ""
+
+
+
+#: footer.php:14 footer.php:25
 
 msgid "Psí hřiště"
 msgstr ""
@@ -329,42 +329,42 @@ msgstr ""
 
 
 
-#: header.php:238 vyhledavani.php:314
+#: header.php:238 vyhledavani.php:346
 
 msgid "Hledat kavárny"
 msgstr ""
 
 
 
-#: header.php:239 vyhledavani.php:315
+#: header.php:239 vyhledavani.php:347
 
 msgid "Hledat restaurace"
 msgstr ""
 
 
 
-#: header.php:240 vyhledavani.php:316
+#: header.php:278 vyhledavani.php:350
 
 msgid "Hledat cvičáky"
 msgstr ""
 
 
 
-#: header.php:241 vyhledavani.php:317
+#: header.php:241 vyhledavani.php:348
 
 msgid "Hledat hotely"
 msgstr ""
 
 
 
-#: header.php:242 vyhledavani.php:318
+#: header.php:242 vyhledavani.php:349
 
 msgid "Hledat sport"
 msgstr ""
 
 
 
-#: header.php:243
+#: header.php:243 vyhledavani.php:351
 
 msgid "Hledat psí hřiště"
 msgstr ""
