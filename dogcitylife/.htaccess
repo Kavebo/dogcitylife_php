@@ -1,14 +1,14 @@
-RewriteEngine Off
+RewriteEngine On
 
 #RewriteBase /
 
-RewriteCond %{HTTPS} !=on
-RewriteRule ^.*$ https://dogcitylife.cz [R,L]
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^.*$ https://dogcitylife.cz [R,L]
 
-ErrorDocument 404 https://dogcitylife.cz/nenalezeno
+ErrorDocument 404 https://localhost/dogcitylife/nenalezeno
 
-RewriteRule ^en/$ index.php?lang=en 
-RewriteRule ^en$ index.php?lang=en 
+RewriteRule ^en/$ index.php?lang=en
+RewriteRule ^en$ index.php?lang=en
 
 RewriteRule ^zarizeni/(.*)/$ zarizeni.php?id=$1 [QSA,L]
 RewriteRule ^zarizeni/(.*)$ zarizeni.php?id=$1 [QSA,L]

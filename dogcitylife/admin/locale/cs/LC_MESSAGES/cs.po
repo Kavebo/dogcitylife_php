@@ -1,972 +1,605 @@
-#: ajax.php:46
-
-msgid "Špatné jméno nebo heslo"
+msgid ""
 msgstr ""
+"Project-Id-Version: Dogcitylife\n"
+"POT-Creation-Date: 2019-02-17 13:38+0100\n"
+"PO-Revision-Date: 2019-02-17 13:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-KeywordsList: ;_e;__\n"
+"X-Poedit-SearchPath-0: .\n"
 
-
-
-#: ajax.php:147
-
-msgid "Nové heslo bylo posláno na váš email"
-msgstr ""
-
-
-
-#: contact.php:41 kontakt.php:41
-
-msgid "Napište nám"
-msgstr ""
-
-
-
-#: contact.php:45 kontakt.php:45
-
-msgid "Email byl úspěšně odeslán."
-msgstr "Vaše zpráva byla úspěšně odeslána."
-
-
-
-#: contact.php:49 kontakt.php:49
-
-msgid "Jméno *"
-msgstr ""
-
-
-
-#: contact.php:54 kontakt.php:54
-
-msgid "Příjmení"
-msgstr ""
-
-
-
-#: contact.php:59 kontakt.php:59
-
-msgid "E-mail *"
-msgstr ""
-
-
-
-#: contact.php:64 kontakt.php:64
-
-msgid "Vaše zpráva *"
-msgstr ""
-
-
-
-#: contact.php:66 kontakt.php:66
-
-msgid "Všechny údaje označené * jsou povinné"
-msgstr ""
-
-
-
-#: contact.php:68 kontakt.php:68 zarizeni.php:378
-
-msgid "Odeslat"
-msgstr ""
-
-
-
-#: footer.php:7 vyhledavani.php:304
-
-msgid "Zařízení"
-msgstr ""
-
-
-
-#: footer.php:9 footer.php:20
-
+#: admin/functions.php:593 footer.php:9 footer.php:20 vyhledavani.php:243
 msgid "Kavárny"
 msgstr ""
 
-
-
-#: footer.php:10 footer.php:21
-
+#: admin/functions.php:595 footer.php:10 footer.php:21 vyhledavani.php:246
 msgid "Restaurace"
 msgstr ""
 
-
-
-#: footer.php:11 footer.php:22
-
+#: admin/functions.php:597 footer.php:11 footer.php:22 vyhledavani.php:252
 msgid "Hotely"
 msgstr ""
 
-
-
-#: footer.php:12 footer.php:23
-
-msgid "Sport"
-msgstr ""
-
-
-
-#: footer.php:13 footer.php:24
-
-msgid "Cvičáky"
-msgstr ""
-
-
-
-#: footer.php:14 footer.php:25
-
-msgid "Psí hřiště"
-msgstr ""
-
-
-
-#: footer.php:18
-
-msgid "Top zařízení"
-msgstr ""
-
-
-
-#: footer.php:29
-
-msgid "Dog City Life"
-msgstr ""
-
-
-
-#: footer.php:31
-
-msgid "O nás"
-msgstr ""
-
-
-
-#: footer.php:32 index.php:54
-
-msgid "Instagram"
-msgstr ""
-
-
-
-#: footer.php:33 header.php:174 header.php:209 zarizeni.php:200
-
-msgid "Kontakt"
-msgstr ""
-
-
-
-#: footer.php:34
-
-msgid "Spolupráce"
-msgstr ""
-
-
-
-#: footer.php:35
-
-msgid "Obchodní podmínky"
-msgstr ""
-
-
-
-#: header.php:68
-
-msgid "Tento email je již zaregistrován"
-msgstr ""
-
-
-
-#: header.php:69
-
-msgid "Vážně chcete smazat váš účet?"
-msgstr "Opravdu chcete smazat Váš účet?"
-
-
-
-#: header.php:82 header.php:117
-
-msgid "Zapomněli jste heslo?"
-msgstr ""
-
-
-
-#: header.php:83
-
-msgid "Zadejte váš e-mail a my vám zašleme nové heslo"
-msgstr ""
-
-
-
-#: header.php:84
-
-msgid "Neplatný email"
-msgstr ""
-
-
-
-#: header.php:87 header.php:110
-
-msgid "E-mail"
-msgstr ""
-
-
-
-#: header.php:91
-
-msgid "Resetovat heslo"
-msgstr ""
-
-
-
-#: header.php:99
-
-msgid "Přihlásit se"
-msgstr ""
-
-
-
-#: header.php:100
-
-msgid "Přihlásit se přes Facebook"
-msgstr ""
-
-
-
-#: header.php:102
-
-msgid "Přihlášením souhlasíte s <a href=\"%s\">všeobecnými obchodními podmínkami</a> webu www.dogcitylife.cz"
-msgstr ""
-
-
-
-#: header.php:106
-
-msgid "nebo"
-msgstr ""
-
-
-
-#: header.php:107
-
-msgid "Zadali jste špatně email nebo heslo."
-msgstr ""
-
-
-
-#: header.php:114 nastaveni.php:104
-
-msgid "Heslo"
-msgstr ""
-
-
-
-#: header.php:119 header.php:198 header.php:215 zarizeni.php:384
-
-msgid "Přihlásit"
-msgstr ""
-
-
-
-#: header.php:121 header.php:127 header.php:151
-
-msgid "Registrovat se"
-msgstr ""
-
-
-
-#: header.php:130
-
-msgid "Zadejte váš e-mail"
-msgstr ""
-
-
-
-#: header.php:134
-
-msgid "Uživatelské jméno"
-msgstr ""
-
-
-
-#: header.php:138
-
-msgid "Vaše heslo"
-msgstr ""
-
-
-
-#: header.php:142
-
-msgid "Ověření hesla"
-msgstr ""
-
-
-
-#: header.php:146
-
-#, php-format
-
-msgid "Registrací souhlasíte s <a href=\"%s\">všeobecnými obchodními podmínkami</a> webu www.dogcitylife.cz"
-msgstr ""
-
-
-
-#: header.php:191 header.php:211
-
-msgid "Můj profil"
-msgstr ""
-
-
-
-#: header.php:192 header.php:212
-
-msgid "Nastavení"
-msgstr ""
-
-
-
-#: header.php:193 header.php:213
-
-msgid "Odhlásit"
-msgstr ""
-
-
-
-#: header.php:238 vyhledavani.php:346
-
-msgid "Hledat kavárny"
-msgstr ""
-
-
-
-#: header.php:239 vyhledavani.php:347
-
-msgid "Hledat restaurace"
-msgstr ""
-
-
-
-#: header.php:278 vyhledavani.php:350
-
-msgid "Hledat cvičáky"
-msgstr ""
-
-
-
-#: header.php:241 vyhledavani.php:348
-
-msgid "Hledat hotely"
-msgstr ""
-
-
-
-#: header.php:242 vyhledavani.php:349
-
-msgid "Hledat sport"
-msgstr ""
-
-
-
-#: header.php:243 vyhledavani.php:351
-
-msgid "Hledat psí hřiště"
-msgstr ""
-
-
-
-#: header.php:246
-
-msgid "Zde prosím napište Vaši adresu"
-msgstr ""
-
-
-
-#: header.php:248
-
-msgid "Hledat"
-msgstr ""
-
-
-
-#: index.php:3
-
-msgid "Doporučujeme"
-msgstr ""
-
-
-
-#: index.php:12
-
-msgid "Chcete získat <strong>slevu nebo</strong> informace o své <strong>oblíbené kavárně?</strong> Zaregistrujte se u nás."
-msgstr "Chcete mít <strong>nejnovější informace</strong> ze svého <strong>oblíbeného podniku?</strong> Zaregistrujte se u nás."
-
-
-
-#: index.php:13
-
-msgid "Registrovat"
-msgstr ""
-
-
-
-#: index.php:16
-
-msgid "Nejlépe hodnoceno"
-msgstr ""
-
-
-
-#: nastaveni.php:62
-
-msgid "Nastavení uživatele:"
-msgstr ""
-
-
-
-#: nastaveni.php:64 profil.php:103
-
-msgid "Upravit"
-msgstr ""
-
-
-
-#: nastaveni.php:65 profil.php:104
-
-msgid "Uložit změny"
-msgstr ""
-
-
-
-#: nastaveni.php:66 profil.php:105
-
-msgid "Zrušit změny"
-msgstr ""
-
-
-
-#: nastaveni.php:72
-
-msgid "Profilový obrázek"
-msgstr ""
-
-
-
-#: nastaveni.php:84 profil.php:168
-
-msgid "Nahrát soubory z počítače"
-msgstr ""
-
-
-
-#: nastaveni.php:93
-
-msgid "Jméno"
-msgstr ""
-
-
-
-#: nastaveni.php:115
-
-msgid "Newsletter"
-msgstr ""
-
-
-
-#: nastaveni.php:118
-
-msgid "Mám zájem o zasílání speciálních nabídek a informačních e-mailů."
-msgstr "Souhlasím se zasíláním speciálních nabídek a informačních e-mailů."
-
-
-
-#: nastaveni.php:120 nastaveni.php:123
-
-msgid "Zrušit odběr novinek"
-msgstr ""
-
-
-
-#: nastaveni.php:121 nastaveni.php:124
-
-msgid "Aktivovat"
-msgstr ""
-
-
-
-#: nastaveni.php:131 nastaveni.php:135
-
-msgid "Smazat účet"
-msgstr ""
-
-
-
-#: nastaveni.php:134
-
-msgid "Chci smazat svůj účet a s ním veškeré mé údaje uvedené na tomto webu."
-msgstr ""
-
-
-
-#: nenalezeno.php:5
-
-#, php-format
-
-msgid "Ehm.. ehm.. tuto stránku jste asi neočekávali.<br>\nZkuste se vrátit na <a href=\"%s\">homepage.</a>"
-msgstr ""
-
-
-
-#: profil.php:100
-
-msgid "Profil uživatele:"
-msgstr ""
-
-
-
-#: profil.php:130
-
-msgid "Oblíbené"
-msgstr ""
-
-
-
-#: profil.php:140
-
-msgid "Odebrat z oblíbených"
-msgstr ""
-
-
-
-#: profil.php:151
-
-msgid "Fotky uživatele"
-msgstr ""
-
-
-
-#: profil.php:160
-
-msgid "Smazat"
-msgstr ""
-
-
-
-#: profil.php:182
-
-msgid "Recenze uživatele: "
-msgstr ""
-
-
-
-#: profil.php:184 zarizeni.php:227
-
-msgid "Nejnovější"
-msgstr ""
-
-
-
-#: profil.php:185 zarizeni.php:228
-
-msgid "Nejstarší"
-msgstr ""
-
-
-
-#: profil.php:258
-
-msgid "Uživatel zatím nenapsal žádnou recenzi"
-msgstr ""
-
-
-
-#: vyhledavani.php:232
-
-msgid "Výsledky pro hledání:"
-msgstr ""
-
-
-
-#: vyhledavani.php:238
-
-msgid "výsledků"
-msgstr ""
-
-
-
-#: vyhledavani.php:240
-
-msgid "výsledek"
-msgstr ""
-
-
-
-#: vyhledavani.php:242
-
-msgid "výsledky"
-msgstr ""
-
-
-
-#: vyhledavani.php:252
-
-msgid "Upřesnit hledání"
-msgstr ""
-
-
-
-#: vyhledavani.php:255
-
-msgid "Hodnocení"
-msgstr ""
-
-
-
-#: vyhledavani.php:271
-
-msgid "Vzdálenost od místa"
-msgstr ""
-
-
-
-#: vyhledavani.php:279
-
-msgid "Hledat v okruhu"
-msgstr ""
-
-
-
-#: vyhledavani.php:284 zarizeni.php:154
-
-msgid "Benefity"
-msgstr ""
-
-
-
-#: vyhledavani.php:294 zarizeni.php:157 templates/zarizeni_vypis.php:72
-
-msgid "Wifi"
-msgstr ""
-
-
-
-#: vyhledavani.php:295 zarizeni.php:160 zarizeni.php:332
-
-#: templates/review.php:49 templates/zarizeni_vypis.php:75
-
-msgid "Miska s vodou a pelíšek"
-msgstr ""
-
-
-
-#: vyhledavani.php:296 zarizeni.php:163 templates/zarizeni_vypis.php:78
-
-msgid "Žrádlo pro pejska"
-msgstr "Pamlsky"
-
-
-
-#: vyhledavani.php:297 zarizeni.php:166 templates/zarizeni_vypis.php:81
-
-msgid "Parkování zdarma"
-msgstr "Parkování"
-
-
-
-#: vyhledavani.php:298 zarizeni.php:169 templates/zarizeni_vypis.php:84
-
-msgid "Bezbariérový přístup"
-msgstr ""
-
-
-
-#: vyhledavani.php:324
-
-msgid "Zrušit všechny filtry"
-msgstr ""
-
-
-
-#: vyhledavani.php:352 vyhledavani.php:354
-
-msgid "Předchozí"
-msgstr ""
-
-
-
-#: vyhledavani.php:362 vyhledavani.php:364
-
-msgid "Další"
-msgstr ""
-
-
-
-#: zarizeni.php:77 templates/zarizeni_vypis.php:20
-
-msgid "Velmi špatné"
-msgstr ""
-
-
-
-#: zarizeni.php:80 templates/zarizeni_vypis.php:23
-
-msgid "Špatné"
-msgstr ""
-
-
-
-#: zarizeni.php:83 templates/zarizeni_vypis.php:26
-
-msgid "Průměrné"
-msgstr ""
-
-
-
-#: zarizeni.php:86 templates/zarizeni_vypis.php:29
-
-msgid "Dobré"
-msgstr ""
-
-
-
-#: zarizeni.php:89 templates/zarizeni_vypis.php:32
-
-msgid "Vynikající"
-msgstr ""
-
-
-
-#: zarizeni.php:95 templates/zarizeni_box.php:45
-
-#: templates/zarizeni_vypis.php:62
-
-msgid "hodnocení"
-msgstr ""
-
-
-
-#: zarizeni.php:105
-
-#, php-format
-
-msgid "+ Zobrazit všechny fotografie (%d)"
-msgstr ""
-
-
-
-#: zarizeni.php:157
-
-msgid "Free WiFi"
-msgstr ""
-
-
-
-#: zarizeni.php:176
-
-msgid "O zařízení"
-msgstr ""
-
-
-
-#: zarizeni.php:183
-
-msgid "Provozní doba"
-msgstr ""
-
-
-
-#: zarizeni.php:193
-
-msgid "Menu podniku"
-msgstr "Menu"
-
-
-
-#: zarizeni.php:195
-
-msgid "Náhled menu zde"
-msgstr ""
-
-
-
-#: zarizeni.php:208
-
-msgid "Spojení"
-msgstr ""
-
-
-
-#: zarizeni.php:225
-
-msgid "Uživatelské recenze"
-msgstr ""
-
-
-
-#: zarizeni.php:301
-
-msgid "Zatím nebyla přidána žádná recenze"
-msgstr ""
-
-
-
-#: zarizeni.php:308 zarizeni.php:383
-
-msgid "Napsat recenzi"
-msgstr ""
-
-
-
-#: zarizeni.php:311
-
-msgid "Vaše slovní hodnocení"
-msgstr ""
-
-
-
-#: zarizeni.php:319 templates/review.php:42
-
-msgid "Obsluha"
-msgstr ""
-
-
-
-#: zarizeni.php:345 templates/review.php:56
-
-msgid "Jídlo a pití"
-msgstr ""
-
-
-
-#: zarizeni.php:358 templates/review.php:63
-
-msgid "Prostředí"
-msgstr ""
-
-
-
-#: zarizeni.php:384
-
-msgid "Pro přidání recenze musíte být přihlášeni"
-msgstr ""
-
-
-
-msgid "Zkuste funkci "najdi mou polohu""
-msgstr ""
-
-
-
-msgid "Přihlášením souhlasíte s <a href="%s">všeobecnými obchodními podmínkami</a> webu www.dogcitylife.cz"
-msgstr ""
-
-
-
-msgid "Email byl úspěšně odeslán."
-msgstr "Vaše zpráva byla úspěšně odeslána."
-
-
-
-msgid "Zahrádka"
-msgstr ""
-
-
-
+#: admin/functions.php:599 footer.php:12 footer.php:23 vyhledavani.php:255
 msgid "Psí potřeby"
 msgstr ""
 
-
-
-msgid "Hledat psí potřeby"
+#: admin/functions.php:601 footer.php:13 footer.php:24 vyhledavani.php:249
+msgid "Cvičáky"
 msgstr ""
 
-
-
-msgid "Objednávkový formulář"
+#: admin/functions.php:603 footer.php:14 footer.php:25 vyhledavani.php:258
+msgid "Psí hřiště"
 msgstr ""
 
+#: admin/objednavka.php:154 objednavkovy-formular.php:68 order-form.php:68
+msgid "Objednávka byla úspěšně odeslána"
+msgstr ""
 
-
+#: admin/objednavka.php:166 objednavkovy-formular.php:74 order-form.php:74
 msgid "Název objednatele"
 msgstr ""
 
-
-
+#: admin/objednavka.php:170 objednavkovy-formular.php:77 order-form.php:77
 msgid "Adresa"
 msgstr ""
 
-
-
+#: admin/objednavka.php:174 objednavkovy-formular.php:80 order-form.php:80
 msgid "IČ"
 msgstr ""
 
-
-
+#: admin/objednavka.php:178 objednavkovy-formular.php:83 order-form.php:83
 msgid "DIČ"
 msgstr ""
 
+#: admin/objednavka.php:187 nastaveni.php:93 objednavkovy-formular.php:92
+#: order-form.php:92
+msgid "Jméno"
+msgstr ""
 
+#: admin/objednavka.php:191 contact.php:54 kontakt.php:54
+#: objednavkovy-formular.php:95 order-form.php:95
+msgid "Příjmení"
+msgstr ""
 
+#: admin/objednavka.php:195 header.php:114 header.php:153
+#: objednavkovy-formular.php:98 order-form.php:98
+msgid "E-mail"
+msgstr ""
+
+#: admin/objednavka.php:199 objednavkovy-formular.php:101 order-form.php:101
 msgid "Telefon"
 msgstr ""
 
-
-
-msgid "Informace o podniku (všechny důležité informace, které chcete zveřejnit a uvidí je uživatel webu v detailu Vašeho podniku)"
+#: admin/objednavka.php:208
+msgid "Informace o podniku"
 msgstr ""
 
-
-
-msgid "Kontakt pro zákazníky (instagram, FB, e-mail, telefon...)"
+#: admin/objednavka.php:212 objednavkovy-formular.php:113 order-form.php:113
+#: zarizeni.php:191
+msgid "Provozní doba"
 msgstr ""
 
-
-
-msgid "0 měsíců"
+#: admin/objednavka.php:217 footer.php:33 zarizeni.php:214
+msgid "Kontakt"
 msgstr ""
 
-
-
-msgid "1 měsíc"
-msgstr ""
-
-
-
-msgid "3 měsíce"
-msgstr ""
-
-
-
-msgid "6 měsíců"
-msgstr ""
-
-
-
-msgid "9 měsíců"
-msgstr ""
-
-
-
-msgid "12 měsíců"
-msgstr ""
-
-
-
-msgid "Objednatel:"
-msgstr ""
-
-
-
-msgid "Kontaktní osoba:"
-msgstr ""
-
-
-
-msgid "O podniku:"
-msgstr ""
-
-
-
+#: admin/objednavka.php:223 objednavkovy-formular.php:123 order-form.php:123
 msgid "Benefity:"
 msgstr ""
 
+#: admin/objednavka.php:227 objednavkovy-formular.php:127 order-form.php:127
+msgid "Free WIFI"
+msgstr ""
 
+#: admin/objednavka.php:230 objednavkovy-formular.php:130 order-form.php:130
+#: templates/zarizeni_vypis.php:77 vyhledavani.php:326 zarizeni.php:164
+msgid "Miska s vodou a pelíšek"
+msgstr ""
 
+#: admin/objednavka.php:233 objednavkovy-formular.php:133 order-form.php:133
+#: templates/zarizeni_vypis.php:80 vyhledavani.php:327 zarizeni.php:167
+msgid "Žrádlo pro pejska"
+msgstr "Pamlsky"
+
+#: admin/objednavka.php:236 objednavkovy-formular.php:136 order-form.php:136
+msgid "Parkování"
+msgstr ""
+
+#: admin/objednavka.php:239 objednavkovy-formular.php:139 order-form.php:139
+#: templates/zarizeni_vypis.php:86 vyhledavani.php:329 zarizeni.php:173
+msgid "Bezbariérový přístup"
+msgstr ""
+
+#: admin/objednavka.php:242 objednavkovy-formular.php:142 order-form.php:142
+#: templates/zarizeni_vypis.php:89 vyhledavani.php:330 zarizeni.php:176
+msgid "Zahrádka"
+msgstr ""
+
+#: admin/objednavka.php:250 objednavkovy-formular.php:150 order-form.php:150
 msgid "Propagační balíček:"
+msgstr ""
+
+#: admin/objednavka.php:254 objednavkovy-formular.php:154 order-form.php:154
+msgid "0 měsíců"
+msgstr ""
+
+#: admin/objednavka.php:255 objednavkovy-formular.php:155 order-form.php:155
+msgid "1 měsíc"
+msgstr ""
+
+#: admin/objednavka.php:256 objednavkovy-formular.php:156 order-form.php:156
+msgid "3 měsíce"
+msgstr ""
+
+#: admin/objednavka.php:257 objednavkovy-formular.php:157 order-form.php:157
+msgid "6 měsíců"
+msgstr ""
+
+#: admin/objednavka.php:258 objednavkovy-formular.php:158 order-form.php:158
+msgid "9 měsíců"
+msgstr ""
+
+#: admin/objednavka.php:259 objednavkovy-formular.php:159 order-form.php:159
+msgid "12 měsíců"
+msgstr ""
+
+#: ajax.php:46
+msgid "Špatné jméno nebo heslo"
+msgstr ""
+
+#: ajax.php:147
+msgid "Nové heslo bylo posláno na váš email"
+msgstr ""
+
+#: contact.php:41 kontakt.php:41
+msgid "Napište nám"
+msgstr ""
+
+#: contact.php:45 kontakt.php:45
+msgid "Email byl úspěšně odeslán."
+msgstr "Vaše zpráva byla úspěšně odeslána."
+
+#: contact.php:49 kontakt.php:49
+msgid "Jméno *"
+msgstr ""
+
+#: contact.php:59 kontakt.php:59
+msgid "E-mail *"
+msgstr ""
+
+#: contact.php:64 kontakt.php:64
+msgid "Vaše zpráva *"
+msgstr ""
+
+#: contact.php:66 kontakt.php:66
+msgid "Všechny údaje označené * jsou povinné"
+msgstr ""
+
+#: contact.php:68 kontakt.php:68 objednavkovy-formular.php:166
+#: order-form.php:166 zarizeni.php:396
+msgid "Odeslat"
+msgstr ""
+
+#: cooperation.php:20 objednavkovy-formular.php:64 order-form.php:64
+#: spoluprace.php:20
+msgid "Objednávkový formulář"
+msgstr ""
+
+#: footer.php:7 vyhledavani.php:336
+msgid "Zařízení"
+msgstr ""
+
+#: footer.php:18
+msgid "Top zařízení"
+msgstr ""
+
+#: footer.php:29
+msgid "Dog City Life"
+msgstr ""
+
+#: footer.php:31
+msgid "O nás"
+msgstr ""
+
+#: footer.php:32 index.php:61
+msgid "Instagram"
+msgstr ""
+
+#: footer.php:34
+msgid "Spolupráce"
+msgstr ""
+
+#: footer.php:35
+msgid "Obchodní podmínky"
+msgstr ""
+
+#: footer.php:36
+msgid "Blog"
+msgstr ""
+
+#: header.php:95
+msgid "Tento email je již zaregistrován"
+msgstr ""
+
+#: header.php:96
+msgid "Vážně chcete smazat váš účet?"
+msgstr "Opravdu chcete smazat Váš účet?"
+
+#: header.php:109 header.php:160
+msgid "Zapomněli jste heslo?"
+msgstr ""
+
+#: header.php:110
+msgid "Zadejte váš e-mail a my vám zašleme nové heslo"
+msgstr ""
+
+#: header.php:111
+msgid "Neplatný email"
+msgstr ""
+
+#: header.php:118
+msgid "Resetovat heslo"
+msgstr ""
+
+#: header.php:126
+msgid "Přihlásit se"
+msgstr ""
+
+#: header.php:143
+msgid "Přihlásit se přes Facebook"
+msgstr ""
+
+#: header.php:149
+msgid "nebo"
+msgstr ""
+
+#: header.php:150
+msgid "Zadali jste špatně email nebo heslo."
+msgstr ""
+
+#: header.php:157 nastaveni.php:104
+msgid "Heslo"
+msgstr ""
+
+#: header.php:162 header.php:241 header.php:258 zarizeni.php:402
+msgid "Přihlásit"
+msgstr ""
+
+#: header.php:164 header.php:170 header.php:194
+msgid "Registrovat se"
+msgstr ""
+
+#: header.php:173
+msgid "Zadejte váš e-mail"
+msgstr ""
+
+#: header.php:177
+msgid "Uživatelské jméno"
+msgstr ""
+
+#: header.php:181
+msgid "Vaše heslo"
+msgstr ""
+
+#: header.php:185
+msgid "Ověření hesla"
+msgstr ""
+
+#: header.php:234 header.php:254
+msgid "Můj profil"
+msgstr ""
+
+#: header.php:235 header.php:255
+msgid "Nastavení"
+msgstr ""
+
+#: header.php:236 header.php:256
+msgid "Odhlásit"
+msgstr ""
+
+#: header.php:281 vyhledavani.php:346
+msgid "Hledat kavárny"
+msgstr ""
+
+#: header.php:282 vyhledavani.php:347
+msgid "Hledat restaurace"
+msgstr ""
+
+#: header.php:283 vyhledavani.php:348
+msgid "Hledat hotely"
+msgstr ""
+
+#: header.php:284 vyhledavani.php:349
+msgid "Hledat psí potřeby"
+msgstr ""
+
+#: header.php:285 vyhledavani.php:350
+msgid "Hledat cvičáky"
+msgstr ""
+
+#: header.php:286 vyhledavani.php:351
+msgid "Hledat psí hřiště"
+msgstr ""
+
+#: header.php:289
+msgid "Zde prosím napište Vaši adresu"
+msgstr ""
+
+#: header.php:291
+msgid "Hledat"
+msgstr ""
+
+#: header.php:295
+msgid "Zkuste funkci \"najdi mou polohu\""
+msgstr ""
+
+#: index.php:3
+msgid "Doporučujeme"
+msgstr ""
+
+#: index.php:19
+msgid "Nejlépe hodnoceno"
+msgstr ""
+
+#: nastaveni.php:62
+msgid "Nastavení uživatele:"
+msgstr ""
+
+#: nastaveni.php:64 profil.php:103
+msgid "Upravit"
+msgstr ""
+
+#: nastaveni.php:65 profil.php:104
+msgid "Uložit změny"
+msgstr ""
+
+#: nastaveni.php:66 profil.php:105
+msgid "Zrušit změny"
+msgstr ""
+
+#: nastaveni.php:72
+msgid "Profilový obrázek"
+msgstr ""
+
+#: nastaveni.php:84 profil.php:168
+msgid "Nahrát soubory z počítače"
+msgstr ""
+
+#: nastaveni.php:115
+msgid "Newsletter"
+msgstr ""
+
+#: nastaveni.php:118
+msgid "Mám zájem o zasílání speciálních nabídek a informačních e-mailů."
+msgstr "Souhlasím se zasíláním speciálních nabídek a informačních e-mailů."
+
+#: nastaveni.php:120 nastaveni.php:123
+msgid "Zrušit odběr novinek"
+msgstr ""
+
+#: nastaveni.php:121 nastaveni.php:124
+msgid "Aktivovat"
+msgstr ""
+
+#: nastaveni.php:131 nastaveni.php:135
+msgid "Smazat účet"
+msgstr ""
+
+#: nastaveni.php:134
+msgid "Chci smazat svůj účet a s ním veškeré mé údaje uvedené na tomto webu."
+msgstr ""
+
+#: objednavkovy-formular.php:71 order-form.php:71
+msgid "Objednatel:"
+msgstr ""
+
+#: objednavkovy-formular.php:89 order-form.php:89
+msgid "Kontaktní osoba:"
+msgstr ""
+
+#: objednavkovy-formular.php:107 order-form.php:107
+msgid "O podniku:"
+msgstr ""
+
+#: objednavkovy-formular.php:110 order-form.php:110
+msgid ""
+"Informace o podniku (všechny důležité informace, které chcete zveřejnit a "
+"uvidí je uživatel webu v detailu Vašeho podniku)"
+msgstr ""
+
+#: objednavkovy-formular.php:117 order-form.php:117
+msgid "Kontakt pro zákazníky (instagram, FB, e-mail, telefon...)"
+msgstr ""
+
+#: profil.php:100
+msgid "Profil uživatele:"
+msgstr ""
+
+#: profil.php:130
+msgid "Oblíbené"
+msgstr ""
+
+#: profil.php:140
+msgid "Odebrat z oblíbených"
+msgstr ""
+
+#: profil.php:151
+msgid "Fotky uživatele"
+msgstr ""
+
+#: profil.php:160
+msgid "Smazat"
+msgstr ""
+
+#: profil.php:182
+msgid "Recenze uživatele: "
+msgstr ""
+
+#: profil.php:184 zarizeni.php:245
+msgid "Nejnovější"
+msgstr ""
+
+#: profil.php:185 zarizeni.php:246
+msgid "Nejstarší"
+msgstr ""
+
+#: profil.php:258
+msgid "Uživatel zatím nenapsal žádnou recenzi"
+msgstr ""
+
+#: templates/review.php:42 zarizeni.php:337
+msgid "Obsluha"
+msgstr ""
+
+#: templates/review.php:49 zarizeni.php:350
+msgid "Dog Friendly"
+msgstr ""
+
+#: templates/review.php:56 zarizeni.php:363
+msgid "Jídlo a pití"
+msgstr ""
+
+#: templates/review.php:63 zarizeni.php:376
+msgid "Prostředí"
+msgstr ""
+
+#: templates/zarizeni_box.php:46 templates/zarizeni_vypis.php:63
+#: zarizeni.php:96
+msgid "hodnocení"
+msgstr ""
+
+#: templates/zarizeni_vypis.php:20 zarizeni.php:77
+msgid "Velmi špatné"
+msgstr ""
+
+#: templates/zarizeni_vypis.php:23 zarizeni.php:80
+msgid "Špatné"
+msgstr ""
+
+#: templates/zarizeni_vypis.php:26 zarizeni.php:83
+msgid "Průměrné"
+msgstr ""
+
+#: templates/zarizeni_vypis.php:29 zarizeni.php:86
+msgid "Dobré"
+msgstr ""
+
+#: templates/zarizeni_vypis.php:32 zarizeni.php:89
+msgid "Vynikající"
+msgstr ""
+
+#: templates/zarizeni_vypis.php:74 vyhledavani.php:325 zarizeni.php:161
+msgid "Wifi"
+msgstr ""
+
+#: templates/zarizeni_vypis.php:83 vyhledavani.php:328 zarizeni.php:170
+msgid "Parkování zdarma"
+msgstr "Parkování"
+
+#: vyhledavani.php:269
+msgid "výsledků"
+msgstr ""
+
+#: vyhledavani.php:271
+msgid "výsledek"
+msgstr ""
+
+#: vyhledavani.php:273
+msgid "výsledky"
+msgstr ""
+
+#: vyhledavani.php:283
+msgid "Upřesnit hledání"
+msgstr ""
+
+#: vyhledavani.php:286
+msgid "Hodnocení"
+msgstr ""
+
+#: vyhledavani.php:302
+msgid "Vzdálenost od místa"
+msgstr ""
+
+#: vyhledavani.php:310
+msgid "Hledat v okruhu"
+msgstr ""
+
+#: vyhledavani.php:315 zarizeni.php:158
+msgid "Benefity"
+msgstr ""
+
+#: vyhledavani.php:356
+msgid "Zrušit všechny filtry"
+msgstr ""
+
+#: vyhledavani.php:367
+msgid "Výsledky"
+msgstr ""
+
+#: vyhledavani.php:387 vyhledavani.php:389
+msgid "Předchozí"
+msgstr ""
+
+#: vyhledavani.php:397 vyhledavani.php:399
+msgid "Další"
+msgstr ""
+
+#: zarizeni.php:161
+msgid "Free WiFi"
+msgstr ""
+
+#: zarizeni.php:183
+msgid "O zařízení"
+msgstr ""
+
+#: zarizeni.php:204
+msgid "Menu podniku"
+msgstr "Menu"
+
+#: zarizeni.php:206
+msgid "Náhled menu zde"
+msgstr ""
+
+#: zarizeni.php:225
+msgid "Spojení"
+msgstr ""
+
+#: zarizeni.php:228
+msgid "Metro"
+msgstr ""
+
+#: zarizeni.php:231
+msgid "Tramvaj"
+msgstr ""
+
+#: zarizeni.php:234
+msgid "Autobus"
+msgstr ""
+
+#: zarizeni.php:243
+msgid "Uživatelské recenze"
+msgstr ""
+
+#: zarizeni.php:319
+msgid "Zatím nebyla přidána žádná recenze"
+msgstr ""
+
+#: zarizeni.php:326 zarizeni.php:401
+msgid "Napsat recenzi"
+msgstr ""
+
+#: zarizeni.php:329
+msgid "Vaše slovní hodnocení"
+msgstr ""
+
+#: zarizeni.php:402
+msgid "Pro přidání recenze musíte být přihlášeni"
 msgstr ""
