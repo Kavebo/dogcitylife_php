@@ -36,19 +36,19 @@ if(isset($_SESSION['login_front'])){
 					<ul>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=kavarna" class="">Kavárny</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=restaurace" class="">Restaurace</a></li>
-						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=bar" class="">Bary</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=hotel" class="">Hotely</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=potreby" class="">Psí potřeby</a></li>
+						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=cvicak" class="">Cvičáky</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=hriste" class="">Psí hřiště</a></li>
 					</ul>
 					<?php elseif($cur_lang = "en"): ?>
 						<ul>
 							<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=kavarna" class="">Cafe</a></li>
 							<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=restaurace" class="">Restaurant</a></li>
-							<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=bar" class="">Bar</a></li>
 							<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hotel" class="">Hotel</a></li>
 							<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=potreby" class="">Dog needs</a></li>
-							<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hriste" class="">Agility</a></li>
+							<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=cvicak" class="">Agility</a></li>
+							<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hriste" class="">Dog playground</a></li>
 						</ul>
 					<?php endif; ?>
 				</div>
@@ -115,9 +115,9 @@ if(isset($_SESSION['login_front'])){
 						<ul>
 							<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=kavarna" class=" normal">Kavárny</a></li>
 							<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=restaurace" class=" normal">Restaurace</a></li>
-							<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=bar" class=" normal">Bary</a></li>
 							<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=hotel" class=" normal">Hotely</a></li>
 							<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=potreby" class=" normal">Psí potřeby</a></li>
+							<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=cvicak" class=" normal">Cvičáky</a></li>
 							<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=hriste" class=" normal">Psí hřiště</a></li>
 							<li class="line"></li>
 							<li><a class="login_fancybox" href="https://dogcitylife.cz/#login">Přihlásit</a></li>
@@ -127,10 +127,10 @@ if(isset($_SESSION['login_front'])){
 							<ul>
 								<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=kavarna" class=" normal">Cafe</a></li>
 								<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=restaurace" class=" normal">Restaurant</a></li>
-								<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=bar" class=" normal">Bar</a></li>
 								<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hotel" class=" normal">Hotel</a></li>
 								<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=potreby" class=" normal">Dog needs</a></li>
-								<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hriste" class=" normal">Agility</a></li>
+								<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=cvicak" class=" normal">Agility</a></li>
+								<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hriste" class=" normal">Dog playground</a></li>
 								<li class="line"></li>
 								<li><a class="login_fancybox" href="https://dogcitylife.cz/en/#login">Log in</a></li>
 								<li><a href="https://dogcitylife.cz/"><img width="38px" src="https://dogcitylife.cz/img/czech.svg"></a></li>

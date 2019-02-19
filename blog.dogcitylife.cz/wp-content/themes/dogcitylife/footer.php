@@ -11,9 +11,9 @@
 					<ul>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=kavarna">Kavárny</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=restaurace">Restaurace</a></li>
-						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=bar">Bary</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=hotel">Hotely</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=potreby">Psí potřeby</a></li>
+						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=cvicak">Cvičáky</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=hriste">Psí hřiště</a></li>
 					</ul>
 				</div>
@@ -22,9 +22,9 @@
 					<ul>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=kavarna&amp;hodnoceni=5">Kavárny</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=restaurace&amp;hodnoceni=5">Restaurace</a></li>
-						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=bar&amp;hodnoceni=5">Bary</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=hotel&amp;hodnoceni=5">Hotely</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=potreby&amp;hodnoceni=5">Psí potřeby</a></li>
+						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=cvicak&amp;hodnoceni=5">Cvičáky</a></li>
 						<li><a href="https://dogcitylife.cz/vyhledavani?typ[]=hriste">Psí hřiště</a></li>
 					</ul>
 				</div>
@@ -53,10 +53,10 @@
 					<ul>
 						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=kavarna">Cafe</a></li>
 						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=restaurace">Restaurant</a></li>
-						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=bar">Bar</a></li>
 						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hotel">Hotel</a></li>
 						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=potreby">Dog needs</a></li>
-						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hriste">Agility</a></li>
+						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=cvicak">Agility</a></li>
+						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hriste">Dog playground</a></li>
 					</ul>
 				</div>
 				<div class="footer_menu">
@@ -64,10 +64,10 @@
 					<ul>
 						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=kavarna&amp;hodnoceni=5">Cafe</a></li>
 						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=restaurace&amp;hodnoceni=5">Restaurant</a></li>
-						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=bar&amp;hodnoceni=5">Bar</a></li>
 						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hotel&amp;hodnoceni=5">Hotel</a></li>
 						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=potreby&amp;hodnoceni=5">Dog needs</a></li>
-						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hriste">Agility</a></li>
+						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=cvicak&amp;hodnoceni=5">Agility</a></li>
+						<li><a href="https://dogcitylife.cz/en/vyhledavani?typ[]=hriste">Dog playground</a></li>
 					</ul>
 				</div>
 				<div class="footer_menu">
@@ -77,7 +77,7 @@
 						<li><a href="https://www.instagram.com/dogcitylife_cz/">Instagram</a></li>
 						<li><a href="https://dogcitylife.cz/en/contact">Contact</a></li>
 						<li><a href="https://dogcitylife.cz/en/cooperation">Cooperation</a></li>
-						<li><a href="https://dogcitylife.cz/en/terms-of-service">Terms and Conditions</a></li>	
+						<li><a href="https://dogcitylife.cz/en/terms-of-service">Terms and Conditions</a></li>
 						<li><a href="<?php bloginfo('url'); ?>" class="blog">Blog</a></li>
 					</ul>
 				</div>
