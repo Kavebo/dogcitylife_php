@@ -286,9 +286,9 @@ if($lat && $lng){
 						<a class="select_box hriste tooltip <?php if(isset($_GET['typ']) && in_array("hriste", $_GET['typ'])) echo 'selected'; ?>" data-val="hriste" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=hriste"; ?>" title="<?php _e('Hledat psí hřiště'); ?>"></a>
 					</div>
 					<div class="search_bar">
-						<input type="text" name="search" id="search" placeholder="<?php _e('Zde prosím napište Vaši adresu'); ?>" value="<?php echo $address; ?>">
+						<input type="text" name="search" id="search" placeholder="<?php _e('Co mám vyčmuchat?'); ?>" value="<?php echo $address; ?>">
 						<a class="gps" href=""></a>
-						<button type="submit"><?php _e('Hledat'); ?></button>
+						<button type="submit"></button>
 					</div>
 					<input type="hidden" name="lat" id="lat" value="<?php echo $lat; ?>">
 					<input type="hidden" name="lng" id="lng" value="<?php echo $lng; ?>">

@@ -45,7 +45,7 @@
 				}
 			}
 
-			$vzdalenost = (float) 20;
+			$vzdalenost = (float) 100;
 			if(isset($_GET['vzdalenost']) && !empty($_GET['vzdalenost'])){
 				$vzdalenost = (float) $_GET['vzdalenost'];
 			}
@@ -300,14 +300,14 @@
 		    	<div class="inner">
 			    	<div class="slider_cont">
 			    		<div class="subtitle"><?php _e('Vzdálenost od místa'); ?></div>
-			    		<input type="hidden" id="vzdalenost" name="vzdalenost" value="<?php if(isset($_GET['vzdalenost']) && !empty($_GET['vzdalenost'])){echo $_GET['vzdalenost'];}else{echo 20;} ?>" />
+			    		<input type="hidden" id="vzdalenost" name="vzdalenost" value="<?php if(isset($_GET['vzdalenost']) && !empty($_GET['vzdalenost'])){echo $_GET['vzdalenost'];}else{echo 100;} ?>" />
 			    		<div class="vzdalenost_labels">
 			    			<div class="from">0.1 km</div>
-			    			<div class="to"><span>20</span> km</div>
+			    			<div class="to"><span>100</span> km</div>
 			    			<div class="clear"></div>
 			    		</div>
 			    		<div id="vzdalenost_slider"></div>
-			    		<div class="vzdalenost_text"><?php _e('Hledat v okruhu'); ?> (<span><?php if(isset($_GET['vzdalenost']) && !empty($_GET['vzdalenost'])){echo $_GET['vzdalenost'];}else{echo 20;} ?></span> km)</div>
+			    		<div class="vzdalenost_text"><?php _e('Hledat v okruhu'); ?> (<span><?php if(isset($_GET['vzdalenost']) && !empty($_GET['vzdalenost'])){echo $_GET['vzdalenost'];}else{echo 100;} ?></span> km)</div>
 			    	</div>
 		    	</div>
 		    	<div class="inner">

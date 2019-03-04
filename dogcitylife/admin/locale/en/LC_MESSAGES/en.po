@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-02-17 13:34+0100\n"
-"PO-Revision-Date: 2019-02-17 13:34+0100\n"
+"POT-Creation-Date: 2019-03-04 20:00+0100\n"
+"PO-Revision-Date: 2019-03-04 20:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
-"X-Poedit-Basepath: ../../../../wamp64/www/dogcitylife\n"
+"X-Poedit-Basepath: ../../../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: ;_e;__\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -330,16 +330,14 @@ msgid "Hledat psí hřiště"
 msgstr "Looking for a dog playground"
 
 #: header.php:289
-msgid "Zde prosím napište Vaši adresu"
-msgstr "Please enter your address here"
-
-#: header.php:291
-msgid "Hledat"
-msgstr "Search"
+#, fuzzy
+#| msgid "Co mám vyčmuchat"
+msgid "Co mám vyčmuchat?"
+msgstr "What should I find?"
 
 #: header.php:295
-msgid "Zkuste funkci "najdi mou polohu""
-msgstr "Try function "Find my position""
+msgid "Zkuste funkci \"najdi mou polohu\""
+msgstr "Try function \"Find my position\""
 
 #: index.php:3
 msgid "Doporučujeme"
@@ -603,3 +601,9 @@ msgstr "Your verbal evaluation"
 #: zarizeni.php:402
 msgid "Pro přidání recenze musíte být přihlášeni"
 msgstr "You must be logged in to add a review"
+
+#~ msgid "Zde prosím napište Vaši adresu"
+#~ msgstr "Please enter your address here"
+
+#~ msgid "Hledat"
+#~ msgstr "Search"

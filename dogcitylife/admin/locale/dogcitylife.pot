@@ -1,7 +1,8 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-02-17 12:43+0100\n"
+"POT-Creation-Date: 2019-03-04 20:01+0100\n"
 "PO-Revision-Date: 2019-02-17 12:51+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
-"X-Poedit-Basepath: ../../../../wamp64/www/dogcitylife\n"
+"X-Poedit-Basepath: ../..\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 "X-Poedit-KeywordsList: ;_e;__\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -330,11 +331,7 @@ msgid "Hledat psí hřiště"
 msgstr ""
 
 #: header.php:289
-msgid "Zde prosím napište Vaši adresu"
-msgstr ""
-
-#: header.php:291
-msgid "Hledat"
+msgid "Co mám vyčmuchat?"
 msgstr ""
 
 #: header.php:295

@@ -236,7 +236,7 @@ body {
   margin-top: 0;
   color: #fff;
   border-radius: 3px;
-  padding: 20px 24px 20px 50px;
+  padding: 20px 24px 20px 43px;
   cursor: pointer;
   vertical-align: middle;
   font-size: 16px;
@@ -263,7 +263,7 @@ body {
   width: 24px;
   height: 25px;
   background: url(../img/hledat.svg) -2px -2px no-repeat;
-  left: 16px;
+  left: 20px;
   top: 17px;
   background-size: 28px;
 }

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dogcitylife\n"
-"POT-Creation-Date: 2019-02-17 13:38+0100\n"
-"PO-Revision-Date: 2019-02-17 13:45+0100\n"
+"POT-Creation-Date: 2019-03-04 20:00+0100\n"
+"PO-Revision-Date: 2019-03-04 20:01+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -330,11 +330,7 @@ msgid "Hledat psí hřiště"
 msgstr ""
 
 #: header.php:289
-msgid "Zde prosím napište Vaši adresu"
-msgstr ""
-
-#: header.php:291
-msgid "Hledat"
+msgid "Co mám vyčmuchat?"
 msgstr ""
 
 #: header.php:295

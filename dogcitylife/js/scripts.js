@@ -49,7 +49,7 @@ function vyhledavani_ajax(page){
 	$(".loader").show();
 	var data = $("#sidebar_form, .search_header form").serialize();
 	$('#search_cont').load(window.location.pathname + "?" + data + '&page=' + page + ' #search_cont', function(){
-		
+
 		$(".loader").hide();
 	});
 
@@ -73,7 +73,7 @@ function zoomDisable(){
 function zoomEnable(){
   $('head meta[name=viewport]').remove();
   $('head').prepend('<meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=1" />');
-} 
+}
 
 function applePie() {
 	var is_pad = navigator.userAgent.match(/(iPhone|iPod|iPad)/i);
@@ -86,7 +86,7 @@ function applePie() {
 
 
 $(window).resize(function(){
-	
+
 	var item_width = $('.detail_gallery .num2').height();
 	item_width = item_width - 20;
 	$(".detail_gallery #map").css("height", item_width + "px");
@@ -94,11 +94,11 @@ $(window).resize(function(){
 	if(applePie() && $(".fancybox-overlay").length){
 		$('body').css({'position': 'fixed'});
 	}else if($(".fancybox-overlay").length){
-		$('body').css({'position': ''}); 
+		$('body').css({'position': ''});
 	}else{
-		$('body').css({'position': ''}); 
+		$('body').css({'position': ''});
 	}
-	
+
 });
 
 $(document).ready(function(){
@@ -117,7 +117,7 @@ $(document).ready(function(){
 		$(".detail_gallery #map").css("height", item_width + "px");
 	});
 
-	
+
 
 	$('input#podminky_fb').change(function(){
 		if($(this).is(":checked")){
@@ -149,7 +149,7 @@ $(document).ready(function(){
 		        scrollTop: $(".search_line").offset().top
 		    }, 1000);
 		}
-		
+
 	}
 
 	if($(".detail_title").length){
@@ -161,7 +161,7 @@ $(document).ready(function(){
 			$('html, body').animate({
 		        scrollTop: $(".detail_title").offset().top
 		    }, 1000);
-		}		
+		}
 	}
 
 	if($(".cms_page").length){
@@ -173,7 +173,7 @@ $(document).ready(function(){
 			$('html, body').animate({
 		        scrollTop: $(".cms_page").offset().top
 		    }, 1000);
-		}		
+		}
 	}
 
 	var item_width = $('.detail_gallery .num2').height();
@@ -195,7 +195,7 @@ $(document).ready(function(){
 		start: function(){},
 		after: function(slider){
 			$('.flex_counter span').text(slider.currentSlide+1);
-		}, 
+		},
 	});*/
 
 	$('.slides_js').slidesjs({
@@ -229,7 +229,7 @@ $(document).ready(function(){
 		} else {
 		    // Do nothing!
 		}
-		
+
 	});
 
 	$('.profile_box .remove_newsletter').click(function(e){
@@ -249,7 +249,7 @@ $(document).ready(function(){
 			$(".loader").hide();
 			$('.profile_box .remove_newsletter').hide();
 			$('.profile_box .activate_newsletter').show();
-			
+
 		});
 	});
 
@@ -270,7 +270,7 @@ $(document).ready(function(){
 			$(".loader").hide();
 			$('.profile_box .activate_newsletter').hide();
 			$('.profile_box .remove_newsletter').show();
-			
+
 		});
 	});
 
@@ -290,7 +290,7 @@ $(document).ready(function(){
 			}else{
 				text = text + value['name'] + ", ";
 			}
-			
+
 		});
 		$(this).parent().children("span").text(text);
 	});
@@ -337,7 +337,7 @@ $(document).ready(function(){
 				cur_link.removeClass("ajax_add_favorite");
 				cur_link.addClass("active ajax_remove_favorite");
 			}
-			
+
 		});
 	});
 
@@ -362,7 +362,7 @@ $(document).ready(function(){
 				cur_link.removeClass("active ajax_remove_favorite");
 				cur_link.addClass("ajax_add_favorite");
 			}
-			
+
 		});
 	});
 
@@ -427,7 +427,7 @@ $(document).ready(function(){
 	$( function() {
 		var valMap = [];
 		var last = parseFloat(0);
-		for (var i = 0; i <= 28; i++) {
+		for (var i = 0; i <= 108; i++) {
 			if(i <= 9){
 				valMap[i] = parseFloat(last) + 0.1;
 				if(i == 9){
@@ -435,7 +435,7 @@ $(document).ready(function(){
 				}else{
 					valMap[i] = parseFloat(valMap[i]).toFixed(1);
 				}
-				
+
 				last = valMap[i];
 			}else{
 				valMap[i] = parseFloat(last) + 1;
@@ -447,7 +447,7 @@ $(document).ready(function(){
 	      range: "max",
 	      min: 0,
 	      max: valMap.length - 1,
-	      value: 28,
+	      value: 108,
 	      slide: function( event, ui ) {
 	        $( "#vzdalenost" ).val( valMap[ui.value] );
 	        $(".vzdalenost_text span").text(valMap[ui.value]);
@@ -479,13 +479,13 @@ $(document).ready(function(){
 				$(".loader").hide();
 			});
 		}
-		
+
 	});
 
 
 	$(".tooltip").tooltip({
-		position: { 
-			my: "left-15 bottom-20", 
+		position: {
+			my: "left-15 bottom-20",
 			at: "center top",
 			collision: "flipfit",
 	        using: function( position, feedback ) {
@@ -518,7 +518,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		if (navigator.geolocation) {
 	        navigator.geolocation.getCurrentPosition(showPosition);
-	    } else { 
+	    } else {
 	        window.alert("Geolokace není dostupná");
 	    }
 	});
@@ -571,8 +571,8 @@ $(document).ready(function(){
         width : '100%',
         height: "auto",
         maxWidth : '100%',
-        afterShow: function() { 
-	        if ( applePie() ) { $('body').css({'position': 'fixed'}); } 
+        afterShow: function() {
+	        if ( applePie() ) { $('body').css({'position': 'fixed'}); }
 	    },
 	    beforeShow: function(){
 			$("body").css({'overflow-y':'hidden'});
@@ -609,10 +609,10 @@ $(document).ready(function(){
 						if(msg == "true"){
 							window.location.replace(location.href);
 							//location.reload();
-						}else{					
+						}else{
 							$('.popup_inner .message').show();
 						}
-						
+
 					});
 				    //form.submit();
 				  }
@@ -629,8 +629,8 @@ $(document).ready(function(){
 		        width : '100%',
 		        height: "auto",
 		        maxWidth : '100%',
-		        afterShow: function() { 
-			        if ( applePie() ) { $('body').css({'position': 'fixed'}); } 
+		        afterShow: function() {
+			        if ( applePie() ) { $('body').css({'position': 'fixed'}); }
 			    },
 			    beforeShow: function(){
 					$("body").css({'overflow-y':'hidden'});
@@ -681,7 +681,7 @@ $(document).ready(function(){
 							        	console.log(data);
 				                     }
 					    		}
-					    		
+
 					    	},
 					  	},
 					  	messages: {
@@ -702,8 +702,8 @@ $(document).ready(function(){
 		        width : '100%',
 		        height: "auto",
 		        maxWidth : '100%',
-		        afterShow: function() { 
-			        if ( applePie() ) { $('body').css({'position': 'fixed'}); } 
+		        afterShow: function() {
+			        if ( applePie() ) { $('body').css({'position': 'fixed'}); }
 			    },
 			    beforeShow: function(){
 					$("body").css({'overflow-y':'hidden'});
@@ -752,7 +752,7 @@ $(document).ready(function(){
 									$('#lost_password .popup_inner .message').text(msg);
 									setTimeout(location.reload.bind(location), 2000);
 								}
-								
+
 							});
 						    //form.submit();
 						  }
@@ -772,8 +772,8 @@ $(document).ready(function(){
         width : '100%',
         height: "auto",
         maxWidth : '100%',
-        afterShow: function() { 
-	        if ( applePie() ) { $('body').css({'position': 'fixed'}); } 
+        afterShow: function() {
+	        if ( applePie() ) { $('body').css({'position': 'fixed'}); }
 	    },
 	    beforeShow: function(){
 			$("body").css({'overflow-y':'hidden'});
@@ -804,7 +804,7 @@ $(document).ready(function(){
 					        	console.log(data);
 		                     }
 			    		}
-			    		
+
 			    	},
 			  	},
 			  	messages: {
@@ -845,9 +845,9 @@ $(document).ready(function(){
 	        obsluha: "obsluha dog_friendly jidlo prostredi"
 	    },
 	   errorPlacement: function(error, element) {
-	       if (element.attr("name") == "obsluha" || element.attr("name") == "dog_friendly" || element.attr("name") == "jidlo" || element.attr("name") == "prostredi") 
+	       if (element.attr("name") == "obsluha" || element.attr("name") == "dog_friendly" || element.attr("name") == "jidlo" || element.attr("name") == "prostredi")
 	        error.insertAfter("#obsluha");
-	       else 
+	       else
 	        error.insertAfter(element);
 	   },
 		ignore: "",
@@ -867,13 +867,13 @@ $(document).ready(function(){
 				$(".loader").hide();
 				if(msg == "true"){
 					location.reload();
-				}else{					
-					
+				}else{
+
 				}
-				
+
 			});
 		  }
 	});
 
-	
+
 });
