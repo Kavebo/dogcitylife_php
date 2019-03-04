@@ -72,6 +72,7 @@ if($lat && $lng){
 	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_front_url(); ?>favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_front_url(); ?>favicon-16x16.png">
 	<link rel="manifest" href="<?php echo get_front_url(); ?>manifest.json">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="<?php echo get_front_url(); ?>mstile-150x150.png">
 	<meta name="theme-color" content="#ffffff">
@@ -287,7 +288,9 @@ if($lat && $lng){
 					</div>
 					<div class="search_bar">
 						<input type="text" name="search" id="search" placeholder="<?php _e('Zde prosím napište Vaši adresu'); ?>" value="<?php echo $address; ?>">
-						<a class="gps" href=""></a>
+						<a class="gps" href="" style="display: none;"></a>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary gps" data-toggle="modal" data-target="#mapModal"></button>
 						<button type="submit"><?php _e('Hledat'); ?></button>
 					</div>
 					<input type="hidden" name="lat" id="lat" value="<?php echo $lat; ?>">
