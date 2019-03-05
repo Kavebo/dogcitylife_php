@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-03-04 20:00+0100\n"
-"PO-Revision-Date: 2019-03-04 20:00+0100\n"
+"PO-Revision-Date: 2019-03-05 20:01+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -323,17 +323,15 @@ msgstr "Looking for a Dog needs"
 
 #: header.php:285 vyhledavani.php:350
 msgid "Hledat cvičáky"
-msgstr "Looking for a dog trainig"
+msgstr "Looking for a dog training"
 
 #: header.php:286 vyhledavani.php:351
 msgid "Hledat psí hřiště"
 msgstr "Looking for a dog playground"
 
 #: header.php:289
-#, fuzzy
-#| msgid "Co mám vyčmuchat"
 msgid "Co mám vyčmuchat?"
-msgstr "What should I find?"
+msgstr "What should I sniff out?"
 
 #: header.php:295
 msgid "Zkuste funkci \"najdi mou polohu\""
