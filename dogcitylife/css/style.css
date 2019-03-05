@@ -467,6 +467,7 @@ h2.best {
   color: #636363;
   margin: 0;
   font-size: 25px;
+  text-decoration: none;
 }
 h2.best {
   padding: 12px 12px 12px 42px;
@@ -491,11 +492,6 @@ h2.best {
 .instagram h2 {
   margin: 0;
   font-size: 25px;
-}
-.instagram span {
-  margin-left: 20px;
-  font-weight: 400;
-  vertical-align: middle;
 }
 .insta_photos {
   margin: 25px 0;

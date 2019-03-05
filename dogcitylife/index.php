@@ -58,7 +58,7 @@
         </div>
         <div class="clear"></div>
         <div class="pes_hp"><img src="<?php echo get_front_url() . "img/hp_botom.png"; ?>"></div>
-        <div class="instagram"><a class="" href="https://www.instagram.com/dogcitylife_cz/"><h2><?php _e('Instagram'); ?> </h2></a><span>#dogcitylifecz</span></div>
+        <a class="instagram" href="https://www.instagram.com/dogcitylife_cz/"><span>#chlupacuvkapesnipruvodce</span></a>
         <?php
 
             $insta = file_get_contents("instagram.json");
