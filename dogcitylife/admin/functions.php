@@ -348,7 +348,7 @@ function the_admin_css(){
 
 	$css = "";
 
-	$css .= '<link rel="stylesheet" type="text/css" href="' . get_admin_url() . "css/style.css?v=1.1" . '">';
+	$css .= '<link rel="stylesheet" type="text/css" href="' . get_admin_url() . "css/style.css?" . mt_rand() . '">';
 
 	$css .= '<link rel="stylesheet" type="text/css" href="' . get_admin_url() . "css/jquery-ui.structure.min.css" . '">';
 

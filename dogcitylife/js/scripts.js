@@ -99,8 +99,6 @@ $(window).resize(function() {
 $(document).ready(function() {
   var ajaxUrl = $("#ajaxUrl").val();
 
-  $(".sidebar .inner").fadeToggle(0);
-
   $('.objednavkovy_form .multiple input[type="checkbox"]').checkboxradio();
 
   $("body").on("click", ".fb_login.disabled", function(e) {
@@ -197,9 +195,9 @@ $(document).ready(function() {
 
   $(".sidebar .title").click(function(e) {
     e.preventDefault();
-    // if($(window).width() <= 890){
-    $(".sidebar .inner").fadeToggle();
-    // }
+    if ($(window).width() <= 890) {
+      $(".sidebar .inner").fadeToggle();
+    }
   });
 
   /*$('.flexslider').flexslider({
@@ -698,18 +696,18 @@ $(document).ready(function() {
         },
         beforeLoad: function() {
           /*$.fancybox.close(true);
-					$(".fancybox-overlay").hide();
-					$.fancybox.open($(".register").attr("href"), {
-						wrapCSS:'fancybox-login',
-				autoSize : true,
-				scrolling : 'auto',
-				fitToView : false,
-				padding: 0,
-				margin: 0,
-				width : '100%',
-				height: "auto",
-				maxWidth : '100%',
-					});*/
+		        	$(".fancybox-overlay").hide();
+		        	$.fancybox.open($(".register").attr("href"), {
+		        		wrapCSS:'fancybox-login',
+	        	autoSize : true,
+		        scrolling : 'auto',
+		        fitToView : false,
+		        padding: 0,
+		        margin: 0,
+		        width : '100%',
+		        height: "auto",
+		        maxWidth : '100%',
+		        	});*/
         },
         afterLoad: function() {
           $.fancybox.reposition();
