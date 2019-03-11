@@ -856,6 +856,10 @@ h2.best {
   float: left;
 }
 
+.detail_gallery .map_overlay {
+  display: none;
+}
+
 .detail_gallery #map {
   width: 100%;
   height: 140px;
@@ -3599,6 +3603,18 @@ html[xmlns] .flexslider .slides {
   }
   .detail_gallery .flexslider {
     display: block;
+  }
+  .detail_gallery .map_overlay {
+    display: inherit;
+    position: absolute;
+    z-index: 10;
+    top: 135px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    color: white;
   }
 }
 

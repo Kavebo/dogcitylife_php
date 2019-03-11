@@ -130,6 +130,7 @@
 				</div>
 			</div>
 			<a data-lat="<?php echo $zarizeni['lat']; ?>" data-lng="<?php echo $zarizeni['lng']; ?>" href="" class="num5 navigate">
+			<div class="map_overlay"><?php _e("Ukaž trasu")?></div>
 			<div class="map_cont"><div id="map"></div></div>
 			</a>
 			<script>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-03-04 20:00+0100\n"
-"PO-Revision-Date: 2019-03-05 20:01+0100\n"
+"POT-Creation-Date: 2019-03-11 19:50+0100\n"
+"PO-Revision-Date: 2019-03-11 19:51+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -83,11 +83,11 @@ msgid "Informace o podniku"
 msgstr "Business information"
 
 #: admin/objednavka.php:212 objednavkovy-formular.php:113 order-form.php:113
-#: zarizeni.php:191
+#: zarizeni.php:192
 msgid "Provozní doba"
 msgstr "Opening hours"
 
-#: admin/objednavka.php:217 footer.php:33 zarizeni.php:214
+#: admin/objednavka.php:217 footer.php:33 zarizeni.php:215
 msgid "Kontakt"
 msgstr "Contact"
 
@@ -100,12 +100,12 @@ msgid "Free WIFI"
 msgstr "Free Wifi"
 
 #: admin/objednavka.php:230 objednavkovy-formular.php:130 order-form.php:130
-#: templates/zarizeni_vypis.php:77 vyhledavani.php:326 zarizeni.php:164
+#: templates/zarizeni_vypis.php:77 vyhledavani.php:326 zarizeni.php:165
 msgid "Miska s vodou a pelíšek"
 msgstr "Bowl with water and dog blanket"
 
 #: admin/objednavka.php:233 objednavkovy-formular.php:133 order-form.php:133
-#: templates/zarizeni_vypis.php:80 vyhledavani.php:327 zarizeni.php:167
+#: templates/zarizeni_vypis.php:80 vyhledavani.php:327 zarizeni.php:168
 msgid "Žrádlo pro pejska"
 msgstr "Treats"
 
@@ -114,12 +114,12 @@ msgid "Parkování"
 msgstr "Parking"
 
 #: admin/objednavka.php:239 objednavkovy-formular.php:139 order-form.php:139
-#: templates/zarizeni_vypis.php:86 vyhledavani.php:329 zarizeni.php:173
+#: templates/zarizeni_vypis.php:86 vyhledavani.php:329 zarizeni.php:174
 msgid "Bezbariérový přístup"
 msgstr "Barrier-free access"
 
 #: admin/objednavka.php:242 objednavkovy-formular.php:142 order-form.php:142
-#: templates/zarizeni_vypis.php:89 vyhledavani.php:330 zarizeni.php:176
+#: templates/zarizeni_vypis.php:89 vyhledavani.php:330 zarizeni.php:177
 msgid "Zahrádka"
 msgstr "Garden"
 
@@ -184,7 +184,7 @@ msgid "Všechny údaje označené * jsou povinné"
 msgstr "All data marked with * are required"
 
 #: contact.php:68 kontakt.php:68 objednavkovy-formular.php:166
-#: order-form.php:166 zarizeni.php:396
+#: order-form.php:166 zarizeni.php:397
 msgid "Odeslat"
 msgstr "Send"
 
@@ -209,7 +209,7 @@ msgstr "Dog City Life"
 msgid "O nás"
 msgstr "About us"
 
-#: footer.php:32 index.php:61
+#: footer.php:32
 msgid "Instagram"
 msgstr "Instagram"
 
@@ -269,7 +269,7 @@ msgstr "You have entered a wrong email or password."
 msgid "Heslo"
 msgstr "Password"
 
-#: header.php:162 header.php:241 header.php:258 zarizeni.php:402
+#: header.php:162 header.php:241 header.php:258 zarizeni.php:403
 msgid "Přihlásit"
 msgstr "Log in"
 
@@ -439,11 +439,11 @@ msgstr "Delete"
 msgid "Recenze uživatele: "
 msgstr "User reviews: "
 
-#: profil.php:184 zarizeni.php:245
+#: profil.php:184 zarizeni.php:246
 msgid "Nejnovější"
 msgstr "Newest"
 
-#: profil.php:185 zarizeni.php:246
+#: profil.php:185 zarizeni.php:247
 msgid "Nejstarší"
 msgstr "Oldest"
 
@@ -451,19 +451,19 @@ msgstr "Oldest"
 msgid "Uživatel zatím nenapsal žádnou recenzi"
 msgstr "User has not written any reviews yet"
 
-#: templates/review.php:42 zarizeni.php:337
+#: templates/review.php:42 zarizeni.php:338
 msgid "Obsluha"
 msgstr "Service"
 
-#: templates/review.php:49 zarizeni.php:350
+#: templates/review.php:49 zarizeni.php:351
 msgid "Dog Friendly"
 msgstr "Dog Friendly"
 
-#: templates/review.php:56 zarizeni.php:363
+#: templates/review.php:56 zarizeni.php:364
 msgid "Jídlo a pití"
 msgstr "Meal & beverages"
 
-#: templates/review.php:63 zarizeni.php:376
+#: templates/review.php:63 zarizeni.php:377
 msgid "Prostředí"
 msgstr "Ambience"
 
@@ -492,11 +492,11 @@ msgstr "Good"
 msgid "Vynikající"
 msgstr "Excellent"
 
-#: templates/zarizeni_vypis.php:74 vyhledavani.php:325 zarizeni.php:161
+#: templates/zarizeni_vypis.php:74 vyhledavani.php:325 zarizeni.php:162
 msgid "Wifi"
 msgstr "Wifi"
 
-#: templates/zarizeni_vypis.php:83 vyhledavani.php:328 zarizeni.php:170
+#: templates/zarizeni_vypis.php:83 vyhledavani.php:328 zarizeni.php:171
 msgid "Parkování zdarma"
 msgstr "Parking"
 
@@ -528,7 +528,7 @@ msgstr "Distance from your position"
 msgid "Hledat v okruhu"
 msgstr "Search in radius"
 
-#: vyhledavani.php:315 zarizeni.php:158
+#: vyhledavani.php:315 zarizeni.php:159
 msgid "Benefity"
 msgstr "Benefits"
 
@@ -548,55 +548,59 @@ msgstr "Previous"
 msgid "Další"
 msgstr "Next"
 
-#: zarizeni.php:161
+#: zarizeni.php:133
+msgid "Ukaž trasu"
+msgstr "Show me the route"
+
+#: zarizeni.php:162
 msgid "Free WiFi"
 msgstr "Free Wifi"
 
-#: zarizeni.php:183
+#: zarizeni.php:184
 msgid "O zařízení"
 msgstr "About"
 
-#: zarizeni.php:204
+#: zarizeni.php:205
 msgid "Menu podniku"
 msgstr "Menu"
 
-#: zarizeni.php:206
+#: zarizeni.php:207
 msgid "Náhled menu zde"
 msgstr "Menu preview"
 
-#: zarizeni.php:225
+#: zarizeni.php:226
 msgid "Spojení"
 msgstr "Transport"
 
-#: zarizeni.php:228
+#: zarizeni.php:229
 msgid "Metro"
 msgstr "Subway"
 
-#: zarizeni.php:231
+#: zarizeni.php:232
 msgid "Tramvaj"
 msgstr "Tram"
 
-#: zarizeni.php:234
+#: zarizeni.php:235
 msgid "Autobus"
 msgstr "Bus"
 
-#: zarizeni.php:243
+#: zarizeni.php:244
 msgid "Uživatelské recenze"
 msgstr "User reviews"
 
-#: zarizeni.php:319
+#: zarizeni.php:320
 msgid "Zatím nebyla přidána žádná recenze"
 msgstr "No reviews yet"
 
-#: zarizeni.php:326 zarizeni.php:401
+#: zarizeni.php:327 zarizeni.php:402
 msgid "Napsat recenzi"
 msgstr "Write a review"
 
-#: zarizeni.php:329
+#: zarizeni.php:330
 msgid "Vaše slovní hodnocení"
 msgstr "Your verbal evaluation"
 
-#: zarizeni.php:402
+#: zarizeni.php:403
 msgid "Pro přidání recenze musíte být přihlášeni"
 msgstr "You must be logged in to add a review"
 
