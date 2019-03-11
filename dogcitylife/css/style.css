@@ -1486,6 +1486,9 @@ label.error.valid {
   padding: 12px 20px;
   border-bottom: 1px solid #e0e0e0;
 }
+.sidebar .title {
+  background: url(../img/filtr.svg) 99% 50% no-repeat;
+}
 .sidebar,
 .vzdalenost_labels .from {
   float: left;
