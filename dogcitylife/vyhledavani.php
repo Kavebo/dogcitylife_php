@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 
 	<div class="container">
+	<?php include "map.php"; ?>
 		<?php
 			if(isset($_GET['page']) && !empty($_GET['page'])){
 				$paged = $_GET['page'];

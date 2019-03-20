@@ -1,51 +1,6 @@
 <?php include "header.php"; ?>
     <div class="container">
-        <!-- Modal -->
-        <div class="modal fade bd-example-modal-lg" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header" style="margin:0 0.3em;padding:0;">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Vyhledejte své dog friendly místa</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body" style="margin:0;padding:0;">
-                        <div id="mapContainer" style="width:100%;height:400px;"></div>
-                        <?php
-                            $db = new Db();
-                            $result = $db->fetch_all("SELECT ID, name, address, lat, lng FROM zarizeni");
-                            if($result) {
-                                // echo json_encode($result);
-                            }
-                        ?>
-                        <script>
-                            function myMap() {
-                                var mapProp= {
-                                    center:new google.maps.LatLng(50.0755, 14.4378),
-                                    zoom:11,
-                                };
-                                var map = new google.maps.Map(document.getElementById("mapContainer"),mapProp);
-                                var marker = new google.maps.Marker({position: {lat: <?php echo $result[0]['lat']?> , lng: <?php echo $result[0]['lng']?>}, map: map});
-
-                                var resultLength = <?php echo count($result)?>;
-
-                                var resultArray = [];
-
-                                for (let index = 0; index < resultLength; index++) {
-
-                                    var lat = <?php echo $result[0]['lat']?>;
-                                    var lng = <?php echo $result[0]['lng']?>;
-                                    resultArray.push({lat, lng});
-                                }
-
-                                console.log(resultArray);
-                            }
-                        </script>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <?php include "map.php"; ?>
         <h2 class="doporucujeme"><?php _e('Doporučujeme'); ?></h2>
         <?php $doporucujeme = $db->fetch_all("SELECT * from zarizeni WHERE active = 1 AND lang LIKE '" . get_current_lang() . "' AND doporucujeme=1 ORDER BY RAND() LIMIT 6"); ?>
         <div class="zarizeni_list_third">
