@@ -2449,6 +2449,20 @@ html[xmlns] .flexslider .slides {
   left: 22px;
   background-image: url(../img/ikona_doporucujeme.svg);
 }
+.pecet .zarizeni_long {
+  position: relative;
+}
+.pecet .zarizeni_long:after {
+  position: absolute;
+  width: 6em;
+  height: 6em;
+  content: "";
+  top: auto;
+  right: -1%;
+  bottom: -13%;
+  left: auto;
+  background: url(../img/pecet.svg) no-repeat;
+}
 @media screen and (max-width: 1280px) {
   body {
     font-size: 90% !important;
@@ -3211,6 +3225,9 @@ html[xmlns] .flexslider .slides {
   .register_banner_dcl,
   .register_banner_yoggies {
     margin: 20px 15px;
+  }
+  .pecet .zarizeni_long:after {
+    bottom: -10%;
   }
 }
 @media screen and (max-width: 580px) {

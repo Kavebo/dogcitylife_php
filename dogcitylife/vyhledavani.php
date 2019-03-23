@@ -368,8 +368,10 @@
 	    		<?php endif; ?>
 		    	<?php if(isset($new['zarizeni']) && !empty($new['zarizeni'])):  ?>
 
-		    		<?php foreach($new['zarizeni'] as $zarizeni): ?>
-		    			<?php include("templates/zarizeni_vypis.php"); ?>
+						<?php foreach($new['zarizeni'] as $zarizeni): ?>
+							<div class=<?php if($zarizeni['pecet'] == 1) echo "pecet"; ?>>
+								<?php include("templates/zarizeni_vypis.php"); ?>
+							</div>
 		    		<?php endforeach; ?>
 		    		<?php if(!empty($new['pagination'])): ?>
 		    			<?php
