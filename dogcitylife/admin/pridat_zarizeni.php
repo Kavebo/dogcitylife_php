@@ -60,6 +60,7 @@ if(isset($_POST['object_save'])){
 			"bezbarier" => 0,
 			"hriste" => 0,
 			"zahradka" => 0,
+			"pecet" => 0,
 		);
 
 
@@ -439,18 +440,22 @@ include "header.php";
 	<?php endif; ?>
 	<div class="input checkboxradio">
 		<label for="object_benefity">Benefity</label>
-		<label for="wifi">Free wifi</label>
-		<input type="checkbox" name="object_benefity[]" value="wifi" id="wifi" <?php if(isset($zarizeni['wifi']) && $zarizeni['wifi'] == 1) echo "checked"; ?>>
-		<label for="dog_friendly">Miska s vodou a pelíšek</label>
-		<input type="checkbox" name="object_benefity[]" value="dog_friendly" id="dog_friendly" <?php if(isset($zarizeni['dog_friendly']) && $zarizeni['dog_friendly'] == 1) echo "checked"; ?>>
-		<label for="krmivo">Pamlsky</label>
-		<input type="checkbox" name="object_benefity[]" value="krmivo" id="krmivo" <?php if(isset($zarizeni['krmivo']) && $zarizeni['krmivo'] == 1) echo "checked"; ?>>
-		<label for="parkovani">Parkování</label>
-		<input type="checkbox" name="object_benefity[]" value="parkovani" id="parkovani" <?php if(isset($zarizeni['parkovani']) && $zarizeni['parkovani'] == 1) echo "checked"; ?>>
-		<label for="bezbarier">Bezbarérový přístup</label>
-		<input type="checkbox" name="object_benefity[]" value="bezbarier" id="bezbarier" <?php if(isset($zarizeni['bezbarier']) && $zarizeni['bezbarier'] == 1) echo "checked"; ?>>
-		<label for="zahradka">Zahrádka</label>
-		<input type="checkbox" name="object_benefity[]" value="zahradka" id="zahradka" <?php if(isset($zarizeni['zahradka']) && $zarizeni['zahradka'] == 1) echo "checked"; ?>>
+		<div class="wrapper">
+			<label for="wifi">Free wifi</label>
+			<input type="checkbox" name="object_benefity[]" value="wifi" id="wifi" <?php if(isset($zarizeni['wifi']) && $zarizeni['wifi'] == 1) echo "checked"; ?>>
+			<label for="dog_friendly">Miska s vodou a pelíšek</label>
+			<input type="checkbox" name="object_benefity[]" value="dog_friendly" id="dog_friendly" <?php if(isset($zarizeni['dog_friendly']) && $zarizeni['dog_friendly'] == 1) echo "checked"; ?>>
+			<label for="krmivo">Pamlsky</label>
+			<input type="checkbox" name="object_benefity[]" value="krmivo" id="krmivo" <?php if(isset($zarizeni['krmivo']) && $zarizeni['krmivo'] == 1) echo "checked"; ?>>
+			<label for="parkovani">Parkování</label>
+			<input type="checkbox" name="object_benefity[]" value="parkovani" id="parkovani" <?php if(isset($zarizeni['parkovani']) && $zarizeni['parkovani'] == 1) echo "checked"; ?>>
+			<label for="bezbarier">Bezbarérový přístup</label>
+			<input type="checkbox" name="object_benefity[]" value="bezbarier" id="bezbarier" <?php if(isset($zarizeni['bezbarier']) && $zarizeni['bezbarier'] == 1) echo "checked"; ?>>
+			<label for="zahradka">Zahrádka</label>
+			<input type="checkbox" name="object_benefity[]" value="zahradka" id="zahradka" <?php if(isset($zarizeni['zahradka']) && $zarizeni['zahradka'] == 1) echo "checked"; ?>>
+			<label for="pecet">Pečeť</label>
+			<input type="checkbox" name="object_benefity[]" value="pecet" id="pecet" <?php if(isset($zarizeni['pecet']) && $zarizeni['pecet'] == 1) echo "checked"; ?>>
+		</div>
 	</div>
 	<div class="input">
 		<label for="object_popis">Popis zařízení</label>
