@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-03-11 19:50+0100\n"
-"PO-Revision-Date: 2019-03-11 19:51+0100\n"
+"PO-Revision-Date: 2019-03-24 17:43+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -37,7 +37,7 @@ msgstr "Dog trainings"
 
 #: admin/functions.php:603 footer.php:14 footer.php:25 vyhledavani.php:258
 msgid "Psí hřiště"
-msgstr "Dog playgrounds"
+msgstr "Playgrounds"
 
 #: admin/objednavka.php:154 objednavkovy-formular.php:68 order-form.php:68
 msgid "Objednávka byla úspěšně odeslána"
@@ -323,7 +323,7 @@ msgstr "Looking for a Dog needs"
 
 #: header.php:285 vyhledavani.php:350
 msgid "Hledat cvičáky"
-msgstr "Looking for a dog training"
+msgstr "Looking for a dog training places"
 
 #: header.php:286 vyhledavani.php:351
 msgid "Hledat psí hřiště"

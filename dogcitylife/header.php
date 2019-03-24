@@ -269,6 +269,12 @@ if($lat && $lng){
 			</div>
 			<div class="search_header">
 				<form method="get" action="<?php echo get_front_url_lang() . "vyhledavani"; ?>">
+					<div class="search_bar">
+						<input type="text" name="search" id="search" placeholder="<?php _e('Co mám vyčmuchat?'); ?>" value="<?php echo $address; ?>">
+						<a class="gps" href=""></a>
+						<button type="submit"></button>
+					</div>
+					<span class="trygps"><?php _e('Zkuste funkci "najdi mou polohu"'); ?></span>
 					<div class="search_types">
 						<select multiple name="typ[]" id="typ" style="display: none;">
 							<option value="kavarna" <?php if(isset($_GET['typ']) && in_array("kavarna", $_GET['typ'])) echo 'selected'; ?>>Hledat kavárny</option>
@@ -285,14 +291,8 @@ if($lat && $lng){
 						<a class="select_box cvicak tooltip <?php if(isset($_GET['typ']) && in_array("cvicak", $_GET['typ'])) echo 'selected'; ?>" data-val="cvicak" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=cvicak"; ?>" title="<?php _e('Hledat cvičáky'); ?>"></a>
 						<a class="select_box hriste tooltip <?php if(isset($_GET['typ']) && in_array("hriste", $_GET['typ'])) echo 'selected'; ?>" data-val="hriste" href="<?php echo get_front_url_lang() . "vyhledavani?typ[]=hriste"; ?>" title="<?php _e('Hledat psí hřiště'); ?>"></a>
 					</div>
-					<div class="search_bar">
-						<input type="text" name="search" id="search" placeholder="<?php _e('Co mám vyčmuchat?'); ?>" value="<?php echo $address; ?>">
-						<a class="gps" href=""></a>
-						<button type="submit"></button>
-					</div>
 					<input type="hidden" name="lat" id="lat" value="<?php echo $lat; ?>">
 					<input type="hidden" name="lng" id="lng" value="<?php echo $lng; ?>">
-					<span class="trygps"><?php _e('Zkuste funkci "najdi mou polohu"'); ?></span>
 				</form>
 			</div>
 		</div>
